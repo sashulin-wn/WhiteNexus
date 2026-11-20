@@ -2,8 +2,17 @@ name: proxy-search
 
 on:
   workflow_dispatch:
+    inputs:
+      task:
+        description: "Что запускать: сбор источников или поиск похожих"
+        required: true
+        type: choice
+        default: collect
+        options:
+          - collect
+          - similar
   schedule:
-    - cron: "0 */2 * * *" # collect запускается автоматически раз в 6 часов
+    - cron: "0 */2 * * *" 
 
 permissions:
   contents: write
