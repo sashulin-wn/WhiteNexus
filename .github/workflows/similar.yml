@@ -1,0 +1,151 @@
+name: Find similar proxies
+
+on:
+  schedule:
+    - cron: "0 */3 * * *"  # автоматически каждые 3 часа (UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+# Use the same group as proxy-search.yml so both workflows cannot push
+# repository results at the same time.
+concurrency:
+  group: whitelist-project-results
+  cancel-in-progress: false
+
+jobs:
+  similar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check similar input files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s work/pool.txt || {
+            echo "work/pool.txt is missing or empty. Run the collect workflow first." >&2
+            exit 1
+          }
+          test -f my_working.txt || {
+            echo "my_working.txt is missing. Add your working VLESS links and commit the file." >&2
+            exit 1
+          }
+          grep -Eq '^[[:space:]]*[^#[:space:]]' my_working.txt || {
+            echo "my_working.txt is empty. Add at least one working server link." >&2
+            exit 1
+          }
+          echo "Pool entries: $(grep -cve '^[[:space:]]*$' -e '^[[:space:]]*#' work/pool.txt || true)"
+          echo "Working-file entries: $(grep -cve '^[[:space:]]*$' -e '^[[:space:]]*#' my_working.txt || true)"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Xray
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .bin/xray
+          curl -fsSL --retry 3 \
+            https://api.github.com/repos/XTLS/Xray-core/releases/latest \
+            -o /tmp/xray-release.json
+          URL="$(jq -r '.assets[] | select(.name == "Xray-linux-64.zip") | .browser_download_url' /tmp/xray-release.json | head -n 1)"
+          test -n "$URL" || { echo "Xray Linux amd64 asset was not found" >&2; exit 1; }
+          curl -fL --retry 3 "$URL" -o /tmp/xray.zip
+          unzip -q /tmp/xray.zip -d .bin/xray
+          chmod +x .bin/xray/xray
+          .bin/xray/xray version
+
+      - name: Install sing-box
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .bin/singbox
+          curl -fsSL --retry 3 \
+            https://api.github.com/repos/SagerNet/sing-box/releases/latest \
+            -o /tmp/singbox-release.json
+          URL="$(jq -r '[.assets[] | select(.name | test("linux-amd64\\.tar\\.gz$"))][0].browser_download_url // empty' /tmp/singbox-release.json)"
+          test -n "$URL" || { echo "sing-box Linux amd64 archive was not found" >&2; exit 1; }
+          curl -fL --retry 3 "$URL" -o /tmp/singbox.tar.gz
+          tar -xzf /tmp/singbox.tar.gz -C .bin/singbox
+          BIN="$(find .bin/singbox -type f -name sing-box -print -quit)"
+          test -n "$BIN" || { echo "sing-box binary was not found in archive" >&2; exit 1; }
+          cp "$BIN" .bin/sing-box
+          chmod +x .bin/sing-box
+          .bin/sing-box version
+
+      - name: Optional MaxMind GeoLite2 City database
+        env:
+          MAXMIND_ACCOUNT_ID: ${{ secrets.MAXMIND_ACCOUNT_ID }}
+          MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -n "${MAXMIND_ACCOUNT_ID:-}" && -n "${MAXMIND_LICENSE_KEY:-}" ]]; then
+            curl -fL --retry 3 \
+              -u "${MAXMIND_ACCOUNT_ID}:${MAXMIND_LICENSE_KEY}" \
+              "https://download.maxmind.com/geoip/databases/GeoLite2-City/download?suffix=tar.gz" \
+              -o /tmp/geolite2-city.tar.gz
+            mkdir -p /tmp/geolite2-city
+            tar -xzf /tmp/geolite2-city.tar.gz -C /tmp/geolite2-city \
+              --wildcards --no-anchored 'GeoLite2-City.mmdb'
+            DB="$(find /tmp/geolite2-city -type f -name GeoLite2-City.mmdb -print -quit)"
+            test -n "$DB" || { echo "GeoLite2-City.mmdb was not found" >&2; exit 1; }
+            cp "$DB" GeoLite2-City.mmdb
+            echo "GEOIP_DB=$GITHUB_WORKSPACE/GeoLite2-City.mmdb" >> "$GITHUB_ENV"
+            echo "GeoLite2 local database installed"
+          else
+            echo "MaxMind secrets are not configured; similar.py will use the IP-API fallback."
+          fi
+
+      - name: Run similar
+        env:
+          XRAY_BIN: ${{ github.workspace }}/.bin/xray/xray
+          SING_BOX_BIN: ${{ github.workspace }}/.bin/sing-box
+        run: |
+          set -euo pipefail
+          python similar.py \
+            --pool work/pool.txt \
+            --working my_working.txt \
+            --out results/similar \
+            --xray "$XRAY_BIN" \
+            --sing-box "$SING_BOX_BIN"
+
+      - name: Commit similar results
+        if: success()
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/similar/
+          if git diff --cached --quiet; then
+            echo "No changes to similar results"
+            exit 0
+          fi
+          git commit -m "update similar results"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push origin "HEAD:$GITHUB_REF_NAME"
+
+      - name: Upload similar results even if the job fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: similar-results-${{ github.run_id }}
+          path: results/similar/
+          if-no-files-found: warn
+          retention-days: 14

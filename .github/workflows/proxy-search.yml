@@ -1,0 +1,170 @@
+name: proxy-search
+
+on:
+  workflow_dispatch:
+    inputs:
+      task:
+        description: "Что запускать: сбор источников или поиск похожих"
+        required: true
+        type: choice
+        default: collect
+        options:
+          - collect
+          - similar
+  schedule:
+    - cron: "17 */6 * * *" # collect запускается автоматически раз в 6 часов
+
+permissions:
+  contents: write
+
+concurrency:
+  group: whitelist-project-results
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Check similar input files
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.task == 'similar'
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s work/pool.txt || { echo "work/pool.txt is missing or empty. Run collect first."; exit 1; }
+          test -f my_working.txt || { echo "my_working.txt is missing. Add your working VLESS links and commit the file."; exit 1; }
+          grep -Eq '^[[:space:]]*[^#[:space:]]' my_working.txt || { echo "my_working.txt is empty. Add at least one working server link."; exit 1; }
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Install Xray
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .bin/xray
+          curl -fsSL https://api.github.com/repos/XTLS/Xray-core/releases/latest -o /tmp/xray-release.json
+          URL="$(jq -r '.assets[] | select(.name == "Xray-linux-64.zip") | .browser_download_url' /tmp/xray-release.json | head -n 1)"
+          test -n "$URL"
+          curl -fL "$URL" -o /tmp/xray.zip
+          unzip -q /tmp/xray.zip -d .bin/xray
+          chmod +x .bin/xray/xray
+          .bin/xray/xray version
+
+      - name: Install sing-box
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p .bin/singbox
+          curl -fsSL https://api.github.com/repos/SagerNet/sing-box/releases/latest -o /tmp/singbox-release.json
+          URL="$(jq -r '[.assets[] | select(.name | test("linux-amd64\\.tar\\.gz$"))][0].browser_download_url // empty' /tmp/singbox-release.json)"
+          test -n "$URL"
+          curl -fL "$URL" -o /tmp/singbox.tar.gz
+          tar -xzf /tmp/singbox.tar.gz -C .bin/singbox
+          BIN="$(find .bin/singbox -type f -name sing-box -print -quit)"
+          test -n "$BIN"
+          cp "$BIN" .bin/sing-box
+          chmod +x .bin/sing-box
+          .bin/sing-box version
+
+      - name: Optional MaxMind GeoLite2 City database
+        env:
+          MAXMIND_ACCOUNT_ID: ${{ secrets.MAXMIND_ACCOUNT_ID }}
+          MAXMIND_LICENSE_KEY: ${{ secrets.MAXMIND_LICENSE_KEY }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -n "${MAXMIND_ACCOUNT_ID:-}" && -n "${MAXMIND_LICENSE_KEY:-}" ]]; then
+            curl -fL -u "${MAXMIND_ACCOUNT_ID}:${MAXMIND_LICENSE_KEY}" \
+              "https://download.maxmind.com/geoip/databases/GeoLite2-City/download?suffix=tar.gz" \
+              -o /tmp/geolite2-city.tar.gz
+            mkdir -p /tmp/geolite2-city
+            tar -xzf /tmp/geolite2-city.tar.gz -C /tmp/geolite2-city --wildcards --no-anchored 'GeoLite2-City.mmdb'
+            DB="$(find /tmp/geolite2-city -type f -name GeoLite2-City.mmdb -print -quit)"
+            test -n "$DB"
+            cp "$DB" GeoLite2-City.mmdb
+            echo "GEOIP_DB=$GITHUB_WORKSPACE/GeoLite2-City.mmdb" >> "$GITHUB_ENV"
+            echo "GeoLite2 local database installed"
+          else
+            echo "MaxMind credentials are missing; use IP-API fallback for geolocation."
+          fi
+
+      - name: Run collect
+        if: github.event_name == 'schedule' || github.event.inputs.task == 'collect'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_SEARCH_TOKEN: ${{ secrets.GH_SEARCH_TOKEN || secrets.GITHUB_TOKEN }}
+          XRAY_BIN: ${{ github.workspace }}/.bin/xray/xray
+          SING_BOX_BIN: ${{ github.workspace }}/.bin/sing-box
+        run: |
+          python collector.py \
+            --xray "$XRAY_BIN" \
+            --sing-box "$SING_BOX_BIN"
+
+      - name: Run similar
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.task == 'similar'
+        env:
+          XRAY_BIN: ${{ github.workspace }}/.bin/xray/xray
+          SING_BOX_BIN: ${{ github.workspace }}/.bin/sing-box
+        run: |
+          python similar.py \
+            --pool work/pool.txt \
+            --working my_working.txt \
+            --xray "$XRAY_BIN" \
+            --sing-box "$SING_BOX_BIN"
+
+      - name: Commit collect results and pool
+        if: success() && (github.event_name == 'schedule' || github.event.inputs.task == 'collect')
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/collect/ work/pool.txt
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "update collect results"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push
+
+      - name: Commit similar results
+        if: success() && github.event_name == 'workflow_dispatch' && github.event.inputs.task == 'similar'
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add results/similar/
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "update similar results"
+          git pull --rebase origin "$GITHUB_REF_NAME"
+          git push
+
+      - name: Upload results even if the job fails
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: proxy-search-${{ github.run_id }}
+          path: |
+            results/collect/
+            results/similar/
+            work/pool.txt
+          if-no-files-found: warn
+          retention-days: 14

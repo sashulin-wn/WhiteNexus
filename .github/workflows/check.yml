@@ -1,1 +1,168 @@
+name: Check proxies
 
+on:
+  schedule:
+    - cron: "0 */2 * * *"   # каждые 2 часа
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: proxy-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Xray-core (verify SHA-256)
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/xray" && cd "$HOME/xray"
+          API_URL="https://api.github.com/repos/XTLS/Xray-core/releases/latest"
+          RELEASE_JSON=$(curl --fail --silent --show-error --location --retry 3 \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            -H "Authorization: Bearer ${{ github.token }}" "$API_URL")
+          ASSET=$(printf '%s' "$RELEASE_JSON" | jq -c '[.assets[] | select(.name == "Xray-linux-64.zip")][0] // empty')
+          URL=$(printf '%s' "$ASSET" | jq -r '.browser_download_url // empty')
+          DIGEST=$(printf '%s' "$ASSET" | jq -r '.digest // empty')
+          if [[ -z "$URL" || ! "$DIGEST" =~ ^sha256:[a-fA-F0-9]{64}$ ]]; then
+            echo "Не найден Xray-linux-64.zip или SHA-256 в метаданных релиза" >&2
+            exit 1
+          fi
+          curl --fail --silent --show-error --location --retry 3 -o xray.zip "$URL"
+          printf '%s  %s\n' "${DIGEST#sha256:}" "xray.zip" | sha256sum --check --status || {
+            echo "SHA-256 Xray не совпадает; запуск остановлен" >&2
+            exit 1
+          }
+          unzip -q -o xray.zip xray
+          chmod +x xray
+          ./xray version
+          echo "XRAY_BIN=$HOME/xray/xray" >> "$GITHUB_ENV"
+
+      - name: Install sing-box (verify SHA-256)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/singbox"
+          cd "$HOME/singbox"
+          API_URL="https://api.github.com/repos/SagerNet/sing-box/releases/latest"
+          RELEASE_JSON=$(curl --fail --silent --show-error --location --retry 3 \
+            -H "Accept: application/vnd.github+json" \
+            -H "X-GitHub-Api-Version: 2026-03-10" \
+            -H "Authorization: Bearer ${GITHUB_TOKEN}" "$API_URL")
+          ASSET=$(printf '%s' "$RELEASE_JSON" | jq -c '[.assets[] | select(.name | test("linux-amd64.*\\.tar\\.gz$"))][0] // empty')
+          URL=$(printf '%s' "$ASSET" | jq -r '.browser_download_url // empty')
+          DIGEST=$(printf '%s' "$ASSET" | jq -r '.digest // empty')
+          if [[ -z "$URL" || ! "$DIGEST" =~ ^sha256:[a-fA-F0-9]{64}$ ]]; then
+            echo "Не найден Linux amd64 архив sing-box или SHA-256 в метаданных релиза" >&2
+            exit 1
+          fi
+          curl --fail --silent --show-error --location --retry 3 -o sb.tar.gz "$URL"
+          printf '%s  %s\n' "${DIGEST#sha256:}" "sb.tar.gz" | sha256sum --check --status || {
+            echo "SHA-256 sing-box не совпадает; запуск остановлен" >&2
+            exit 1
+          }
+          mkdir -p extracted
+          tar -xzf sb.tar.gz -C extracted
+          BIN=$(find extracted -type f -name sing-box -print -quit)
+          if [[ -z "$BIN" ]]; then
+            echo "В архиве не найден бинарник sing-box" >&2
+            exit 1
+          fi
+          install -m 0755 "$BIN" "$HOME/singbox/sing-box"
+          "$HOME/singbox/sing-box" version
+          echo "SINGBOX_BIN=$HOME/singbox/sing-box" >> "$GITHUB_ENV"
+
+      - name: Check proxies
+        env:
+          TIMEOUT: "8"
+          CONCURRENCY: "200"
+          XRAY_WORKERS: "32"
+          SINGBOX_WORKERS: "32"
+          XRAY_TIMEOUT: "6"
+          XRAY_START_TIMEOUT: "6"
+          SPEED_TEST: "false"  # сохранён облегчённый режим; MIN_SPEED_MBPS применяется только при SPEED_TEST=true
+          MAX_PER_COUNTRY: "12"
+          MAX_TOTAL: "600"  # общий файл: не более 600 записей
+          MAX_US_CA_SHARE: "0.25"
+          MAX_SOURCE_BYTES: "67108864"
+          MAX_TOTAL_SOURCE_BYTES: "268435456"
+          MAX_CONFIGS: "250000"
+          MIN_SPEED_MBPS: "1.5"
+          MAX_TESTS_PER_IP: "3"
+          TELEGRAM_CHANNELS: "t.me/OutlineReleasedKey,t.me/V2ray_Collector"
+          SOURCE_URLS: "https://raw.githubusercontent.com/nikita29a/FreeProxyList/refs/heads/main/mirror/1.txt, https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/All_Configs_base64_Sub.txt"
+        run: python checker.py
+
+      - name: Install YouTube test dependency
+        run: python -m pip install --disable-pip-version-check yt-dlp PySocks
+
+      - name: YouTube Speed Test (Xray checked only)
+        env:
+          YOUTUBE_TEST_BYTES: "4000000"       # до 4 MB реального видеопотока на сервер
+          YOUTUBE_WORKERS: "6"                # ограничиваем параллельные туннели и трафик
+          YOUTUBE_EXTRACT_TIMEOUT: "35"
+          YOUTUBE_DOWNLOAD_TIMEOUT: "30"
+          YOUTUBE_FAST_MIN_MBPS: "8"          # предварительный порог для youtube_fast.txt
+          YOUTUBE_FAST_LIMIT: "100"           # максимум 100 лучших серверов
+        run: python youtube_test.py
+
+      - name: Process igareck sources without core checks
+        env:
+          MAX_TOTAL: "600"  # общий all.txt после добавления igareck также не превышает 600 записей
+          IGARECK_MAX_CONFIGS_PER_IP: "1"  # строго одна конфигурация на каждый IP, без лимита общего числа IP
+          IGARECK_DNS_CONCURRENCY: "40"
+        run: python igareck.py
+
+      - name: Commit results
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          AUTH_HEADER="AUTHORIZATION: basic $(printf 'x-access-token:%s' "$GITHUB_TOKEN" | base64 -w 0)"
+          git config http.https://github.com/.extraheader "$AUTH_HEADER"
+          cleanup() { git config --unset http.https://github.com/.extraheader 2>/dev/null || true; }
+          trap cleanup EXIT
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          mkdir -p results
+          git add -A results
+          if git diff --cached --quiet; then
+            echo "Нет изменений"
+            exit 0
+          fi
+
+          git commit -m "Update proxies: $(date -u +'%Y-%m-%d %H:%M') UTC"
+          for i in 1 2 3 4 5; do
+            echo "Попытка пуша №$i..."
+            git fetch origin main
+            if git rebase origin/main; then
+              if git push origin HEAD:main; then
+                echo "Успешно запушено"
+                exit 0
+              fi
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep $((i * 4))
+          done
+          echo "Не удалось запушить"
+          exit 1
