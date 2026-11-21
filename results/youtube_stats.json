@@ -4,2956 +4,2776 @@
   "workers": 6,
   "fast_min_mbps": 8.0,
   "fast_limit": 100,
-  "candidates": 841,
-  "passed_before_ip_dedupe": 518,
-  "passed_unique_before_us_ca_cap": 327,
-  "youtube_checked_count": 256,
+  "candidates": 808,
+  "passed_before_ip_dedupe": 480,
+  "passed_unique_before_us_ca_cap": 307,
+  "youtube_checked_count": 250,
   "fast_count": 100,
   "us_ca_share_limit": 0.25,
-  "failed": 323,
+  "failed": 328,
   "results": [
     {
-      "ip": "154.197.64.252",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.064,
-      "download_seconds": 0.055,
-      "speed_mbps": 586.27
-    },
-    {
-      "ip": "185.95.231.156",
+      "ip": "172.64.154.113",
       "scheme": "vless",
       "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.044,
-      "download_seconds": 0.062,
-      "speed_mbps": 514.24
-    },
-    {
-      "ip": "38.91.100.16",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.053,
-      "download_seconds": 0.078,
-      "speed_mbps": 412.71
-    },
-    {
-      "ip": "38.91.100.69",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.051,
-      "download_seconds": 0.082,
-      "speed_mbps": 391.33
-    },
-    {
-      "ip": "142.202.48.87",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.078,
-      "download_seconds": 0.113,
-      "speed_mbps": 283.66
-    },
-    {
-      "ip": "67.220.95.49",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.07,
-      "download_seconds": 0.133,
-      "speed_mbps": 241.46
-    },
-    {
-      "ip": "38.107.226.5",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.081,
-      "download_seconds": 0.136,
-      "speed_mbps": 235.93
-    },
-    {
-      "ip": "209.200.246.148",
-      "scheme": "vless",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.106,
-      "download_seconds": 0.136,
-      "speed_mbps": 235.75
-    },
-    {
-      "ip": "66.163.122.7",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.132,
-      "download_seconds": 0.137,
-      "speed_mbps": 233.37
-    },
-    {
-      "ip": "172.111.38.246",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.087,
-      "download_seconds": 0.137,
-      "speed_mbps": 233.32
-    },
-    {
-      "ip": "38.128.66.212",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.089,
-      "download_seconds": 0.141,
-      "speed_mbps": 227.43
-    },
-    {
-      "ip": "38.64.138.135",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.105,
-      "download_seconds": 0.145,
-      "speed_mbps": 221.06
-    },
-    {
-      "ip": "162.251.61.46",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.136,
-      "download_seconds": 0.146,
-      "speed_mbps": 219.65
-    },
-    {
-      "ip": "38.64.138.187",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.112,
-      "download_seconds": 0.146,
-      "speed_mbps": 219.35
-    },
-    {
-      "ip": "38.128.66.249",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.101,
-      "download_seconds": 0.146,
-      "speed_mbps": 218.69
-    },
-    {
-      "ip": "38.128.66.241",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.098,
-      "download_seconds": 0.146,
-      "speed_mbps": 218.5
-    },
-    {
-      "ip": "162.251.60.97",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.098,
-      "download_seconds": 0.15,
-      "speed_mbps": 212.93
-    },
-    {
-      "ip": "134.195.196.154",
-      "scheme": "vmess",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.094,
-      "download_seconds": 0.154,
-      "speed_mbps": 208.17
-    },
-    {
-      "ip": "167.17.69.171",
-      "scheme": "vless",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.098,
-      "download_seconds": 0.156,
-      "speed_mbps": 204.94
-    },
-    {
-      "ip": "170.101.101.211",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.128,
-      "download_seconds": 0.162,
-      "speed_mbps": 197.51
-    },
-    {
-      "ip": "170.101.101.19",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.12,
-      "download_seconds": 0.163,
-      "speed_mbps": 195.95
-    },
-    {
-      "ip": "170.101.101.237",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.125,
-      "download_seconds": 0.166,
-      "speed_mbps": 192.28
-    },
-    {
-      "ip": "184.107.179.150",
-      "scheme": "vless",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.113,
-      "download_seconds": 0.17,
-      "speed_mbps": 188.24
-    },
-    {
-      "ip": "170.101.101.131",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.134,
-      "download_seconds": 0.175,
-      "speed_mbps": 183.04
-    },
-    {
-      "ip": "67.220.95.3",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.049,
-      "download_seconds": 0.182,
-      "speed_mbps": 176.04
-    },
-    {
-      "ip": "170.101.101.67",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.121,
-      "download_seconds": 0.184,
-      "speed_mbps": 173.44
-    },
-    {
-      "ip": "170.101.101.112",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.132,
-      "download_seconds": 0.19,
-      "speed_mbps": 168.17
-    },
-    {
-      "ip": "67.220.85.46",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.048,
-      "download_seconds": 0.199,
-      "speed_mbps": 161.18
-    },
-    {
-      "ip": "170.101.101.53",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.121,
-      "download_seconds": 0.199,
-      "speed_mbps": 160.87
-    },
-    {
-      "ip": "216.152.155.176",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.47,
-      "download_seconds": 0.213,
-      "speed_mbps": 150.02
-    },
-    {
-      "ip": "66.163.122.30",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.23,
-      "download_seconds": 0.227,
-      "speed_mbps": 141.24
-    },
-    {
-      "ip": "167.88.62.56",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.146,
-      "download_seconds": 0.235,
-      "speed_mbps": 136.44
-    },
-    {
-      "ip": "216.152.147.152",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.321,
-      "download_seconds": 0.235,
-      "speed_mbps": 136.12
-    },
-    {
-      "ip": "38.68.135.131",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.145,
-      "download_seconds": 0.235,
-      "speed_mbps": 136.1
-    },
-    {
-      "ip": "167.88.62.51",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.308,
-      "download_seconds": 0.238,
-      "speed_mbps": 134.39
-    },
-    {
-      "ip": "216.152.155.23",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.269,
-      "download_seconds": 0.244,
-      "speed_mbps": 131.3
-    },
-    {
-      "ip": "167.88.62.134",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.145,
-      "download_seconds": 0.244,
-      "speed_mbps": 131.06
-    },
-    {
-      "ip": "216.152.155.50",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.341,
-      "download_seconds": 0.244,
-      "speed_mbps": 131.03
-    },
-    {
-      "ip": "216.152.155.131",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.171,
-      "download_seconds": 0.248,
-      "speed_mbps": 128.84
-    },
-    {
-      "ip": "216.152.147.85",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.261,
-      "download_seconds": 0.264,
-      "speed_mbps": 121.21
-    },
-    {
-      "ip": "216.152.155.54",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.145,
-      "download_seconds": 0.269,
-      "speed_mbps": 118.98
-    },
-    {
-      "ip": "169.197.140.218",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.372,
-      "download_seconds": 0.29,
-      "speed_mbps": 110.45
-    },
-    {
-      "ip": "66.163.122.113",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.172,
-      "download_seconds": 0.291,
-      "speed_mbps": 109.79
-    },
-    {
-      "ip": "38.110.1.246",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.333,
-      "download_seconds": 0.299,
-      "speed_mbps": 107.04
-    },
-    {
-      "ip": "216.152.147.74",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.416,
-      "download_seconds": 0.306,
-      "speed_mbps": 104.67
-    },
-    {
-      "ip": "216.152.155.158",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.216,
-      "download_seconds": 0.308,
-      "speed_mbps": 103.99
-    },
-    {
-      "ip": "66.163.122.81",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.919,
-      "download_seconds": 0.314,
-      "speed_mbps": 101.95
-    },
-    {
-      "ip": "66.163.122.25",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.345,
-      "download_seconds": 0.319,
-      "speed_mbps": 100.37
-    },
-    {
-      "ip": "38.91.107.49",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.293,
-      "download_seconds": 0.322,
-      "speed_mbps": 99.39
-    },
-    {
-      "ip": "169.197.140.169",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.255,
-      "download_seconds": 0.331,
-      "speed_mbps": 96.62
-    },
-    {
-      "ip": "38.91.107.57",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.237,
-      "download_seconds": 0.336,
-      "speed_mbps": 95.13
-    },
-    {
-      "ip": "38.91.107.188",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.289,
-      "download_seconds": 0.336,
-      "speed_mbps": 95.13
-    },
-    {
-      "ip": "38.91.107.84",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.298,
-      "download_seconds": 0.34,
-      "speed_mbps": 94.13
-    },
-    {
-      "ip": "169.197.140.245",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.295,
-      "download_seconds": 0.346,
-      "speed_mbps": 92.57
-    },
-    {
-      "ip": "66.163.122.46",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 4.378,
-      "download_seconds": 0.352,
-      "speed_mbps": 90.85
-    },
-    {
-      "ip": "216.152.155.59",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.38,
-      "download_seconds": 0.365,
-      "speed_mbps": 87.67
-    },
-    {
-      "ip": "169.197.140.214",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.324,
-      "download_seconds": 0.373,
-      "speed_mbps": 85.84
-    },
-    {
-      "ip": "216.152.147.79",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.404,
-      "download_seconds": 0.374,
-      "speed_mbps": 85.6
-    },
-    {
-      "ip": "216.152.147.201",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.189,
-      "download_seconds": 0.393,
-      "speed_mbps": 81.44
-    },
-    {
-      "ip": "169.197.140.224",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.499,
-      "download_seconds": 0.395,
-      "speed_mbps": 80.91
-    },
-    {
-      "ip": "87.120.92.186",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.239,
-      "download_seconds": 0.401,
-      "speed_mbps": 79.73
-    },
-    {
-      "ip": "216.24.57.1",
-      "scheme": "vless",
-      "country": "GB",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.31,
-      "download_seconds": 0.402,
-      "speed_mbps": 79.53
-    },
-    {
-      "ip": "217.60.27.93",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.224,
-      "download_seconds": 0.405,
-      "speed_mbps": 78.94
-    },
-    {
-      "ip": "169.197.140.171",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.29,
-      "download_seconds": 0.408,
-      "speed_mbps": 78.39
-    },
-    {
-      "ip": "169.197.140.208",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.606,
-      "download_seconds": 0.409,
-      "speed_mbps": 78.3
-    },
-    {
-      "ip": "178.17.52.31",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.25,
-      "download_seconds": 0.41,
-      "speed_mbps": 78.12
-    },
-    {
-      "ip": "138.124.86.230",
-      "scheme": "vless",
-      "country": "SE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.268,
-      "download_seconds": 0.428,
-      "speed_mbps": 74.73
-    },
-    {
-      "ip": "23.150.152.65",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.244,
-      "download_seconds": 0.438,
-      "speed_mbps": 73.01
-    },
-    {
-      "ip": "212.34.137.105",
-      "scheme": "hysteria2",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.186,
-      "download_seconds": 0.441,
-      "speed_mbps": 72.49
-    },
-    {
-      "ip": "130.49.179.227",
-      "scheme": "vmess",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.383,
-      "download_seconds": 0.453,
-      "speed_mbps": 70.6
-    },
-    {
-      "ip": "66.163.112.31",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 3.565,
-      "download_seconds": 0.458,
-      "speed_mbps": 69.92
-    },
-    {
-      "ip": "13.141.51.100",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.236,
-      "download_seconds": 0.459,
-      "speed_mbps": 69.7
-    },
-    {
-      "ip": "38.244.5.231",
-      "scheme": "vless",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.251,
-      "download_seconds": 0.46,
-      "speed_mbps": 69.62
-    },
-    {
-      "ip": "201.58.142.83",
-      "scheme": "hysteria2",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.204,
-      "download_seconds": 0.467,
-      "speed_mbps": 68.57
-    },
-    {
-      "ip": "66.163.122.26",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.253,
-      "download_seconds": 0.467,
-      "speed_mbps": 68.56
-    },
-    {
-      "ip": "216.152.147.89",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.31,
-      "download_seconds": 0.468,
-      "speed_mbps": 68.34
-    },
-    {
-      "ip": "167.88.61.20",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.28,
-      "download_seconds": 0.475,
-      "speed_mbps": 67.36
-    },
-    {
-      "ip": "167.88.61.52",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.272,
-      "download_seconds": 0.476,
-      "speed_mbps": 67.18
-    },
-    {
-      "ip": "167.88.61.175",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.28,
-      "download_seconds": 0.478,
-      "speed_mbps": 66.92
-    },
-    {
-      "ip": "167.88.61.85",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.269,
-      "download_seconds": 0.48,
-      "speed_mbps": 66.67
-    },
-    {
-      "ip": "84.17.41.2",
-      "scheme": "vmess",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.508,
-      "download_seconds": 0.487,
-      "speed_mbps": 65.77
-    },
-    {
-      "ip": "216.152.147.93",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.566,
-      "download_seconds": 0.49,
-      "speed_mbps": 65.25
-    },
-    {
-      "ip": "216.106.186.155",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.326,
-      "download_seconds": 0.501,
-      "speed_mbps": 63.86
-    },
-    {
-      "ip": "216.106.186.66",
-      "scheme": "trojan",
-      "country": "US",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.113,
-      "download_seconds": 0.514,
-      "speed_mbps": 62.21
-    },
-    {
-      "ip": "48.102.174.174",
-      "scheme": "hysteria2",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.274,
-      "download_seconds": 0.527,
-      "speed_mbps": 60.76
-    },
-    {
-      "ip": "94.183.164.119",
-      "scheme": "hysteria2",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.195,
-      "download_seconds": 0.535,
-      "speed_mbps": 59.79
-    },
-    {
-      "ip": "48.102.217.33",
-      "scheme": "vless",
-      "country": "RU",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.322,
-      "download_seconds": 0.546,
-      "speed_mbps": 58.61
-    },
-    {
-      "ip": "94.183.164.176",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.211,
-      "download_seconds": 0.549,
-      "speed_mbps": 58.25
-    },
-    {
-      "ip": "143.246.211.240",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.205,
-      "download_seconds": 0.56,
-      "speed_mbps": 57.13
-    },
-    {
-      "ip": "149.7.16.228",
-      "scheme": "vmess",
-      "country": "GB",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.346,
-      "download_seconds": 0.564,
-      "speed_mbps": 56.76
-    },
-    {
-      "ip": "23.162.200.198",
-      "scheme": "vmess",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.071,
-      "download_seconds": 0.568,
-      "speed_mbps": 56.3
-    },
-    {
-      "ip": "136.176.68.34",
-      "scheme": "vless",
-      "country": "GB",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.342,
-      "download_seconds": 0.569,
-      "speed_mbps": 56.25
-    },
-    {
-      "ip": "196.245.153.156",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.328,
-      "download_seconds": 0.571,
-      "speed_mbps": 56.03
-    },
-    {
-      "ip": "89.213.119.160",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.199,
-      "download_seconds": 0.588,
-      "speed_mbps": 54.38
-    },
-    {
-      "ip": "216.152.147.48",
-      "scheme": "trojan",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 3.091,
-      "download_seconds": 0.594,
-      "speed_mbps": 53.88
-    },
-    {
-      "ip": "93.123.101.198",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.454,
-      "download_seconds": 0.599,
-      "speed_mbps": 53.44
-    },
-    {
-      "ip": "78.17.215.141",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.461,
-      "download_seconds": 0.6,
-      "speed_mbps": 53.31
-    },
-    {
-      "ip": "179.254.191.251",
-      "scheme": "hysteria2",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.24,
-      "download_seconds": 0.601,
-      "speed_mbps": 53.2
-    },
-    {
-      "ip": "217.60.94.115",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.373,
-      "download_seconds": 0.607,
-      "speed_mbps": 52.75
-    },
-    {
-      "ip": "94.183.164.96",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.213,
-      "download_seconds": 0.611,
-      "speed_mbps": 52.39
-    },
-    {
-      "ip": "138.124.245.102",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.42,
-      "download_seconds": 0.619,
-      "speed_mbps": 51.72
-    },
-    {
-      "ip": "62.210.70.194",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.201,
-      "download_seconds": 0.62,
-      "speed_mbps": 51.62
-    },
-    {
-      "ip": "147.45.47.101",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.366,
-      "download_seconds": 0.622,
-      "speed_mbps": 51.47
-    },
-    {
-      "ip": "185.90.62.112",
-      "scheme": "vless",
-      "country": "GB",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.508,
-      "download_seconds": 0.627,
-      "speed_mbps": 51.01
-    },
-    {
-      "ip": "216.106.185.158",
-      "scheme": "vless",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.143,
-      "download_seconds": 0.628,
-      "speed_mbps": 50.96
-    },
-    {
-      "ip": "23.162.152.127",
-      "scheme": "vmess",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.394,
-      "download_seconds": 0.628,
-      "speed_mbps": 50.95
-    },
-    {
-      "ip": "51.158.206.80",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.34,
-      "download_seconds": 0.631,
-      "speed_mbps": 50.7
-    },
-    {
-      "ip": "51.158.206.34",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.359,
-      "download_seconds": 0.634,
-      "speed_mbps": 50.51
-    },
-    {
-      "ip": "2.56.127.202",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.241,
-      "download_seconds": 0.634,
-      "speed_mbps": 50.45
-    },
-    {
-      "ip": "51.158.206.98",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.344,
-      "download_seconds": 0.636,
-      "speed_mbps": 50.3
-    },
-    {
-      "ip": "51.158.206.26",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.347,
-      "download_seconds": 0.638,
-      "speed_mbps": 50.18
-    },
-    {
-      "ip": "51.158.206.29",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.341,
-      "download_seconds": 0.639,
-      "speed_mbps": 50.09
-    },
-    {
-      "ip": "134.195.196.211",
-      "scheme": "vmess",
-      "country": "CA",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.447,
-      "download_seconds": 0.642,
-      "speed_mbps": 49.82
-    },
-    {
-      "ip": "130.12.242.106",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.386,
-      "download_seconds": 0.654,
-      "speed_mbps": 48.94
-    },
-    {
-      "ip": "206.237.11.17",
-      "scheme": "vmess",
-      "country": "HK",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.189,
-      "download_seconds": 0.661,
-      "speed_mbps": 48.44
-    },
-    {
-      "ip": "195.252.179.56",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.381,
-      "download_seconds": 0.661,
-      "speed_mbps": 48.41
-    },
-    {
-      "ip": "172.67.139.189",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.856,
-      "download_seconds": 0.662,
-      "speed_mbps": 48.33
-    },
-    {
-      "ip": "62.210.24.143",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.203,
-      "download_seconds": 0.662,
-      "speed_mbps": 48.31
-    },
-    {
-      "ip": "51.158.206.8",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.46,
-      "download_seconds": 0.663,
-      "speed_mbps": 48.29
-    },
-    {
-      "ip": "172.67.197.170",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.65,
-      "download_seconds": 0.667,
-      "speed_mbps": 48.0
-    },
-    {
-      "ip": "193.108.117.61",
-      "scheme": "vmess",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.367,
-      "download_seconds": 0.668,
-      "speed_mbps": 47.89
-    },
-    {
-      "ip": "51.158.206.86",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.358,
-      "download_seconds": 0.67,
-      "speed_mbps": 47.78
-    },
-    {
-      "ip": "88.216.70.125",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.547,
-      "download_seconds": 0.67,
-      "speed_mbps": 47.73
-    },
-    {
-      "ip": "193.108.119.87",
-      "scheme": "vmess",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.38,
-      "download_seconds": 0.671,
-      "speed_mbps": 47.72
-    },
-    {
-      "ip": "51.158.206.87",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.35,
-      "download_seconds": 0.671,
-      "speed_mbps": 47.69
-    },
-    {
-      "ip": "177.177.215.45",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.362,
-      "download_seconds": 0.673,
-      "speed_mbps": 47.58
-    },
-    {
-      "ip": "193.108.119.96",
-      "scheme": "trojan",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.369,
-      "download_seconds": 0.674,
-      "speed_mbps": 47.5
-    },
-    {
-      "ip": "185.177.229.95",
-      "scheme": "vmess",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.378,
-      "download_seconds": 0.675,
-      "speed_mbps": 47.42
-    },
-    {
-      "ip": "51.158.206.93",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.362,
-      "download_seconds": 0.675,
-      "speed_mbps": 47.41
+      "ttfb_seconds": 0.075,
+      "download_seconds": 0.063,
+      "speed_mbps": 511.98
     },
     {
       "ip": "216.106.186.33",
       "scheme": "trojan",
       "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.696,
-      "download_seconds": 0.677,
-      "speed_mbps": 47.28
+      "ttfb_seconds": 2.742,
+      "download_seconds": 0.128,
+      "speed_mbps": 250.86
     },
     {
-      "ip": "51.158.206.96",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.361,
-      "download_seconds": 0.681,
-      "speed_mbps": 47.01
-    },
-    {
-      "ip": "51.158.206.25",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.35,
-      "download_seconds": 0.682,
-      "speed_mbps": 46.94
-    },
-    {
-      "ip": "51.158.206.103",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.382,
-      "download_seconds": 0.683,
-      "speed_mbps": 46.87
-    },
-    {
-      "ip": "193.108.119.34",
+      "ip": "216.106.186.82",
       "scheme": "trojan",
-      "country": "DE",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.363,
-      "download_seconds": 0.683,
-      "speed_mbps": 46.82
+      "ttfb_seconds": 0.288,
+      "download_seconds": 0.152,
+      "speed_mbps": 210.09
     },
     {
-      "ip": "48.103.133.47",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.381,
-      "download_seconds": 0.685,
-      "speed_mbps": 46.69
-    },
-    {
-      "ip": "193.108.119.15",
+      "ip": "216.106.186.66",
       "scheme": "trojan",
-      "country": "DE",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.57,
-      "download_seconds": 0.689,
-      "speed_mbps": 46.44
+      "ttfb_seconds": 0.112,
+      "download_seconds": 0.163,
+      "speed_mbps": 195.85
     },
     {
-      "ip": "187.7.206.176",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.369,
-      "download_seconds": 0.694,
-      "speed_mbps": 46.13
-    },
-    {
-      "ip": "195.201.120.42",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.254,
-      "download_seconds": 0.694,
-      "speed_mbps": 46.08
-    },
-    {
-      "ip": "222.167.245.16",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 7.821,
-      "download_seconds": 0.695,
-      "speed_mbps": 46.02
-    },
-    {
-      "ip": "193.108.119.78",
+      "ip": "167.88.61.20",
       "scheme": "trojan",
-      "country": "DE",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.429,
-      "download_seconds": 0.696,
-      "speed_mbps": 45.99
+      "ttfb_seconds": 0.117,
+      "download_seconds": 0.174,
+      "speed_mbps": 183.86
     },
     {
-      "ip": "212.102.38.25",
-      "scheme": "vless",
-      "country": "CZ",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.445,
-      "download_seconds": 0.698,
-      "speed_mbps": 45.83
-    },
-    {
-      "ip": "51.158.206.19",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.393,
-      "download_seconds": 0.699,
-      "speed_mbps": 45.75
-    },
-    {
-      "ip": "109.106.15.99",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.36,
-      "download_seconds": 0.702,
-      "speed_mbps": 45.55
-    },
-    {
-      "ip": "192.142.12.198",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.36,
-      "download_seconds": 0.705,
-      "speed_mbps": 45.42
-    },
-    {
-      "ip": "62.210.91.10",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.385,
-      "download_seconds": 0.705,
-      "speed_mbps": 45.38
-    },
-    {
-      "ip": "193.108.119.134",
+      "ip": "167.88.61.198",
       "scheme": "trojan",
-      "country": "DE",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.395,
-      "download_seconds": 0.706,
-      "speed_mbps": 45.36
+      "ttfb_seconds": 0.114,
+      "download_seconds": 0.176,
+      "speed_mbps": 181.79
     },
     {
-      "ip": "187.7.206.179",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.389,
-      "download_seconds": 0.706,
-      "speed_mbps": 45.3
-    },
-    {
-      "ip": "51.158.206.97",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.366,
-      "download_seconds": 0.709,
-      "speed_mbps": 45.1
-    },
-    {
-      "ip": "193.108.119.29",
+      "ip": "167.88.61.52",
       "scheme": "trojan",
-      "country": "DE",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.365,
-      "download_seconds": 0.72,
-      "speed_mbps": 44.42
+      "ttfb_seconds": 0.122,
+      "download_seconds": 0.176,
+      "speed_mbps": 181.63
     },
     {
-      "ip": "51.158.206.12",
-      "scheme": "vless",
-      "country": "NL",
+      "ip": "167.88.61.85",
+      "scheme": "trojan",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.386,
-      "download_seconds": 0.721,
-      "speed_mbps": 44.39
+      "ttfb_seconds": 0.105,
+      "download_seconds": 0.177,
+      "speed_mbps": 180.59
     },
     {
-      "ip": "193.233.198.117",
-      "scheme": "vless",
-      "country": "DE",
+      "ip": "167.88.61.175",
+      "scheme": "trojan",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.403,
-      "download_seconds": 0.724,
-      "speed_mbps": 44.23
+      "ttfb_seconds": 0.11,
+      "download_seconds": 0.178,
+      "speed_mbps": 179.29
     },
     {
-      "ip": "94.103.168.62",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.909,
-      "download_seconds": 0.731,
-      "speed_mbps": 43.76
-    },
-    {
-      "ip": "150.251.112.45",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.522,
-      "download_seconds": 0.739,
-      "speed_mbps": 43.29
-    },
-    {
-      "ip": "51.158.206.20",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.386,
-      "download_seconds": 0.74,
-      "speed_mbps": 43.26
-    },
-    {
-      "ip": "169.40.34.53",
-      "scheme": "vless",
-      "country": "FI",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.497,
-      "download_seconds": 0.742,
-      "speed_mbps": 43.11
-    },
-    {
-      "ip": "87.120.92.68",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.485,
-      "download_seconds": 0.744,
-      "speed_mbps": 42.99
-    },
-    {
-      "ip": "164.37.224.245",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.206,
-      "download_seconds": 0.747,
-      "speed_mbps": 42.85
-    },
-    {
-      "ip": "62.210.91.2",
-      "scheme": "vless",
-      "country": "FR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.467,
-      "download_seconds": 0.747,
-      "speed_mbps": 42.85
-    },
-    {
-      "ip": "150.241.87.52",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.554,
-      "download_seconds": 0.756,
-      "speed_mbps": 42.33
-    },
-    {
-      "ip": "45.192.12.92",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.491,
-      "download_seconds": 0.767,
-      "speed_mbps": 41.72
-    },
-    {
-      "ip": "80.79.121.156",
-      "scheme": "vless",
-      "country": "EE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.415,
-      "download_seconds": 0.774,
-      "speed_mbps": 41.35
-    },
-    {
-      "ip": "82.118.16.189",
-      "scheme": "vless",
-      "country": "IT",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.48,
-      "download_seconds": 0.782,
-      "speed_mbps": 40.92
-    },
-    {
-      "ip": "138.199.55.230",
+      "ip": "169.197.142.68",
       "scheme": "vmess",
-      "country": "SE",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.452,
-      "download_seconds": 0.793,
-      "speed_mbps": 40.36
+      "ttfb_seconds": 0.115,
+      "download_seconds": 0.179,
+      "speed_mbps": 178.96
     },
     {
-      "ip": "95.85.243.72",
-      "scheme": "vless",
-      "country": "EE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.511,
-      "download_seconds": 0.793,
-      "speed_mbps": 40.36
-    },
-    {
-      "ip": "195.63.128.21",
-      "scheme": "hysteria2",
-      "country": "GB",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.325,
-      "download_seconds": 0.797,
-      "speed_mbps": 40.14
-    },
-    {
-      "ip": "87.121.112.83",
-      "scheme": "hysteria2",
-      "country": "BG",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.528,
-      "download_seconds": 0.8,
-      "speed_mbps": 40.0
-    },
-    {
-      "ip": "62.93.166.184",
-      "scheme": "vmess",
-      "country": "SE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.445,
-      "download_seconds": 0.801,
-      "speed_mbps": 39.93
-    },
-    {
-      "ip": "185.246.155.91",
-      "scheme": "vless",
-      "country": "TR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.95,
-      "download_seconds": 0.806,
-      "speed_mbps": 39.69
-    },
-    {
-      "ip": "153.52.85.184",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.499,
-      "download_seconds": 0.807,
-      "speed_mbps": 39.65
-    },
-    {
-      "ip": "13.143.239.236",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.331,
-      "download_seconds": 0.816,
-      "speed_mbps": 39.2
-    },
-    {
-      "ip": "87.199.205.28",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.61,
-      "download_seconds": 0.82,
-      "speed_mbps": 39.03
-    },
-    {
-      "ip": "79.182.70.81",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.218,
-      "download_seconds": 0.826,
-      "speed_mbps": 38.73
-    },
-    {
-      "ip": "193.108.119.193",
+      "ip": "167.88.61.193",
       "scheme": "trojan",
-      "country": "DE",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.369,
-      "download_seconds": 0.827,
-      "speed_mbps": 38.67
+      "ttfb_seconds": 0.11,
+      "download_seconds": 0.18,
+      "speed_mbps": 178.22
     },
     {
-      "ip": "103.88.232.55",
+      "ip": "216.106.186.46",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.486,
+      "download_seconds": 0.182,
+      "speed_mbps": 176.09
+    },
+    {
+      "ip": "216.106.186.32",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.318,
+      "download_seconds": 0.214,
+      "speed_mbps": 149.48
+    },
+    {
+      "ip": "216.106.186.155",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.32,
+      "download_seconds": 0.231,
+      "speed_mbps": 138.53
+    },
+    {
+      "ip": "23.150.152.65",
       "scheme": "vmess",
-      "country": "BR",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.498,
-      "download_seconds": 0.845,
-      "speed_mbps": 37.87
+      "ttfb_seconds": 0.137,
+      "download_seconds": 0.233,
+      "speed_mbps": 137.43
     },
     {
-      "ip": "144.31.90.235",
-      "scheme": "vless",
-      "country": "FI",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.87,
-      "download_seconds": 0.852,
-      "speed_mbps": 37.55
-    },
-    {
-      "ip": "135.136.33.134",
-      "scheme": "vless",
-      "country": "DK",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.513,
-      "download_seconds": 0.854,
-      "speed_mbps": 37.46
-    },
-    {
-      "ip": "103.14.27.207",
+      "ip": "84.17.41.2",
       "scheme": "vmess",
-      "country": "BR",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.495,
-      "download_seconds": 0.855,
-      "speed_mbps": 37.41
+      "ttfb_seconds": 0.158,
+      "download_seconds": 0.25,
+      "speed_mbps": 127.83
     },
     {
-      "ip": "200.169.179.233",
+      "ip": "38.244.5.231",
       "scheme": "vless",
-      "country": "RU",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.384,
+      "download_seconds": 0.26,
+      "speed_mbps": 123.08
+    },
+    {
+      "ip": "38.68.135.131",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.19,
+      "download_seconds": 0.317,
+      "speed_mbps": 100.89
+    },
+    {
+      "ip": "167.88.62.51",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.2,
+      "download_seconds": 0.317,
+      "speed_mbps": 100.79
+    },
+    {
+      "ip": "167.88.62.134",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.193,
+      "download_seconds": 0.322,
+      "speed_mbps": 99.4
+    },
+    {
+      "ip": "167.88.62.56",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.19,
+      "download_seconds": 0.33,
+      "speed_mbps": 97.09
+    },
+    {
+      "ip": "162.251.61.46",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.221,
+      "download_seconds": 0.356,
+      "speed_mbps": 89.96
+    },
+    {
+      "ip": "38.128.66.249",
+      "scheme": "vmess",
+      "country": "US",
       "downloaded_bytes": 4000000,
       "ttfb_seconds": 0.262,
-      "download_seconds": 0.856,
-      "speed_mbps": 37.38
+      "download_seconds": 0.357,
+      "speed_mbps": 89.71
     },
     {
-      "ip": "179.253.80.175",
-      "scheme": "vless",
-      "country": "DE",
+      "ip": "38.64.138.135",
+      "scheme": "vmess",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.327,
-      "download_seconds": 0.866,
-      "speed_mbps": 36.96
+      "ttfb_seconds": 0.261,
+      "download_seconds": 0.357,
+      "speed_mbps": 89.7
     },
     {
-      "ip": "195.123.213.28",
-      "scheme": "vless",
-      "country": "LV",
+      "ip": "162.251.60.97",
+      "scheme": "vmess",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.577,
-      "download_seconds": 0.874,
-      "speed_mbps": 36.62
+      "ttfb_seconds": 0.261,
+      "download_seconds": 0.357,
+      "speed_mbps": 89.59
     },
     {
-      "ip": "195.63.138.212",
+      "ip": "38.128.66.212",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.21,
+      "download_seconds": 0.359,
+      "speed_mbps": 89.07
+    },
+    {
+      "ip": "38.64.138.187",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.207,
+      "download_seconds": 0.36,
+      "speed_mbps": 88.92
+    },
+    {
+      "ip": "38.128.66.241",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.224,
+      "download_seconds": 0.36,
+      "speed_mbps": 88.78
+    },
+    {
+      "ip": "216.152.155.23",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.272,
+      "download_seconds": 0.373,
+      "speed_mbps": 85.82
+    },
+    {
+      "ip": "216.152.155.54",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.288,
+      "download_seconds": 0.41,
+      "speed_mbps": 78.04
+    },
+    {
+      "ip": "134.195.196.154",
+      "scheme": "vmess",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.306,
+      "download_seconds": 0.415,
+      "speed_mbps": 77.12
+    },
+    {
+      "ip": "216.152.155.158",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.312,
+      "download_seconds": 0.437,
+      "speed_mbps": 73.23
+    },
+    {
+      "ip": "67.220.95.49",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.292,
+      "download_seconds": 0.443,
+      "speed_mbps": 72.19
+    },
+    {
+      "ip": "38.107.226.5",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.315,
+      "download_seconds": 0.446,
+      "speed_mbps": 71.78
+    },
+    {
+      "ip": "172.111.38.246",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.312,
+      "download_seconds": 0.448,
+      "speed_mbps": 71.47
+    },
+    {
+      "ip": "170.101.101.131",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.495,
+      "download_seconds": 0.449,
+      "speed_mbps": 71.3
+    },
+    {
+      "ip": "142.202.48.87",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.291,
+      "download_seconds": 0.459,
+      "speed_mbps": 69.68
+    },
+    {
+      "ip": "158.51.121.246",
+      "scheme": "vmess",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.341,
+      "download_seconds": 0.463,
+      "speed_mbps": 69.19
+    },
+    {
+      "ip": "38.91.100.69",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.266,
+      "download_seconds": 0.464,
+      "speed_mbps": 68.93
+    },
+    {
+      "ip": "38.91.100.16",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.272,
+      "download_seconds": 0.466,
+      "speed_mbps": 68.63
+    },
+    {
+      "ip": "67.220.73.204",
+      "scheme": "vless",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.368,
+      "download_seconds": 0.473,
+      "speed_mbps": 67.7
+    },
+    {
+      "ip": "170.101.101.211",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.27,
+      "download_seconds": 0.482,
+      "speed_mbps": 66.39
+    },
+    {
+      "ip": "184.107.179.150",
+      "scheme": "vless",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.288,
+      "download_seconds": 0.485,
+      "speed_mbps": 65.93
+    },
+    {
+      "ip": "170.101.101.112",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.281,
+      "download_seconds": 0.487,
+      "speed_mbps": 65.74
+    },
+    {
+      "ip": "170.101.101.53",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.29,
+      "download_seconds": 0.487,
+      "speed_mbps": 65.68
+    },
+    {
+      "ip": "170.101.101.67",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.466,
+      "download_seconds": 0.504,
+      "speed_mbps": 63.47
+    },
+    {
+      "ip": "23.19.231.244",
+      "scheme": "vless",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.552,
+      "download_seconds": 0.538,
+      "speed_mbps": 59.49
+    },
+    {
+      "ip": "170.101.101.237",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.407,
+      "download_seconds": 0.538,
+      "speed_mbps": 59.48
+    },
+    {
+      "ip": "38.91.107.57",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.42,
+      "download_seconds": 0.545,
+      "speed_mbps": 58.74
+    },
+    {
+      "ip": "38.110.1.246",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.48,
+      "download_seconds": 0.568,
+      "speed_mbps": 56.32
+    },
+    {
+      "ip": "206.237.11.17",
+      "scheme": "vmess",
+      "country": "HK",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.107,
+      "download_seconds": 0.588,
+      "speed_mbps": 54.4
+    },
+    {
+      "ip": "212.34.137.105",
       "scheme": "hysteria2",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.243,
-      "download_seconds": 0.888,
-      "speed_mbps": 36.03
+      "ttfb_seconds": 0.289,
+      "download_seconds": 0.592,
+      "speed_mbps": 54.05
     },
     {
-      "ip": "195.123.226.21",
+      "ip": "62.210.70.194",
       "scheme": "vless",
-      "country": "BG",
+      "country": "FR",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.835,
-      "download_seconds": 0.895,
-      "speed_mbps": 35.77
+      "ttfb_seconds": 0.302,
+      "download_seconds": 0.605,
+      "speed_mbps": 52.87
     },
     {
-      "ip": "150.251.113.34",
-      "scheme": "vless",
-      "country": "PL",
+      "ip": "23.162.200.198",
+      "scheme": "vmess",
+      "country": "CA",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 8.65,
-      "download_seconds": 0.897,
-      "speed_mbps": 35.68
+      "ttfb_seconds": 0.314,
+      "download_seconds": 0.609,
+      "speed_mbps": 52.55
     },
     {
-      "ip": "31.77.144.255",
-      "scheme": "vless",
-      "country": "FI",
+      "ip": "67.220.85.46",
+      "scheme": "vmess",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.386,
-      "download_seconds": 0.902,
-      "speed_mbps": 35.46
+      "ttfb_seconds": 0.217,
+      "download_seconds": 0.62,
+      "speed_mbps": 51.65
     },
     {
-      "ip": "201.34.142.108",
-      "scheme": "vless",
-      "country": "NL",
+      "ip": "216.152.156.81",
+      "scheme": "trojan",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.446,
-      "download_seconds": 0.904,
-      "speed_mbps": 35.4
+      "ttfb_seconds": 1.261,
+      "download_seconds": 0.63,
+      "speed_mbps": 50.77
     },
     {
-      "ip": "201.24.116.192",
-      "scheme": "vless",
-      "country": "RU",
+      "ip": "216.152.156.49",
+      "scheme": "trojan",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.268,
-      "download_seconds": 0.906,
-      "speed_mbps": 35.33
+      "ttfb_seconds": 0.45,
+      "download_seconds": 0.632,
+      "speed_mbps": 50.65
     },
     {
-      "ip": "31.6.1.115",
-      "scheme": "vless",
-      "country": "RO",
+      "ip": "201.58.142.83",
+      "scheme": "hysteria2",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.068,
-      "download_seconds": 0.913,
-      "speed_mbps": 35.05
+      "ttfb_seconds": 0.311,
+      "download_seconds": 0.643,
+      "speed_mbps": 49.78
     },
     {
-      "ip": "45.88.176.223",
-      "scheme": "vless",
-      "country": "RU",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.357,
-      "download_seconds": 0.916,
-      "speed_mbps": 34.95
-    },
-    {
-      "ip": "193.160.208.240",
+      "ip": "217.60.27.93",
       "scheme": "vless",
       "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.42,
-      "download_seconds": 0.922,
-      "speed_mbps": 34.73
+      "ttfb_seconds": 0.364,
+      "download_seconds": 0.645,
+      "speed_mbps": 49.65
     },
     {
-      "ip": "38.180.206.44",
-      "scheme": "vless",
-      "country": "KZ",
+      "ip": "169.197.142.22",
+      "scheme": "vmess",
+      "country": "US",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.5,
-      "download_seconds": 0.929,
-      "speed_mbps": 34.46
+      "ttfb_seconds": 0.102,
+      "download_seconds": 0.666,
+      "speed_mbps": 48.08
     },
     {
-      "ip": "104.171.135.229",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.842,
-      "download_seconds": 0.952,
-      "speed_mbps": 33.62
-    },
-    {
-      "ip": "66.163.118.113",
-      "scheme": "vless",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.569,
-      "download_seconds": 0.974,
-      "speed_mbps": 32.86
-    },
-    {
-      "ip": "201.51.11.65",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.774,
-      "download_seconds": 0.979,
-      "speed_mbps": 32.7
-    },
-    {
-      "ip": "143.246.41.117",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.357,
-      "download_seconds": 0.987,
-      "speed_mbps": 32.43
-    },
-    {
-      "ip": "188.225.57.185",
-      "scheme": "vless",
-      "country": "SE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.518,
-      "download_seconds": 0.993,
-      "speed_mbps": 32.24
-    },
-    {
-      "ip": "83.229.84.243",
+      "ip": "87.120.92.186",
       "scheme": "vless",
       "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.379,
-      "download_seconds": 1.002,
-      "speed_mbps": 31.93
-    },
-    {
-      "ip": "72.56.38.83",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.843,
-      "download_seconds": 1.003,
-      "speed_mbps": 31.9
-    },
-    {
-      "ip": "31.77.28.8",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.99,
-      "download_seconds": 1.023,
-      "speed_mbps": 31.27
-    },
-    {
-      "ip": "147.45.108.45",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.823,
-      "download_seconds": 1.068,
-      "speed_mbps": 29.97
-    },
-    {
-      "ip": "196.245.217.24",
-      "scheme": "vless",
-      "country": "NL",
       "downloaded_bytes": 4000000,
       "ttfb_seconds": 0.359,
-      "download_seconds": 1.068,
-      "speed_mbps": 29.96
+      "download_seconds": 0.679,
+      "speed_mbps": 47.15
     },
     {
-      "ip": "164.37.224.238",
+      "ip": "94.183.164.119",
+      "scheme": "hysteria2",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.318,
+      "download_seconds": 0.696,
+      "speed_mbps": 45.96
+    },
+    {
+      "ip": "216.152.155.59",
+      "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.297,
+      "download_seconds": 0.697,
+      "speed_mbps": 45.88
+    },
+    {
+      "ip": "89.213.119.160",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.374,
-      "download_seconds": 1.073,
-      "speed_mbps": 29.82
-    },
-    {
-      "ip": "185.86.145.78",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.57,
-      "download_seconds": 1.134,
-      "speed_mbps": 28.22
-    },
-    {
-      "ip": "195.206.235.72",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.541,
-      "download_seconds": 1.155,
-      "speed_mbps": 27.71
-    },
-    {
-      "ip": "13.143.187.220",
-      "scheme": "vless",
-      "country": "FI",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 4.167,
-      "download_seconds": 1.179,
-      "speed_mbps": 27.14
+      "ttfb_seconds": 0.317,
+      "download_seconds": 0.725,
+      "speed_mbps": 44.12
     },
     {
       "ip": "151.242.164.51",
       "scheme": "vless",
       "country": "JP",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.97,
-      "download_seconds": 1.195,
-      "speed_mbps": 26.78
+      "ttfb_seconds": 0.417,
+      "download_seconds": 0.743,
+      "speed_mbps": 43.05
     },
     {
-      "ip": "48.103.231.82",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.27,
-      "download_seconds": 1.219,
-      "speed_mbps": 26.24
-    },
-    {
-      "ip": "144.31.140.125",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.538,
-      "download_seconds": 1.236,
-      "speed_mbps": 25.89
-    },
-    {
-      "ip": "146.103.118.189",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.662,
-      "download_seconds": 1.269,
-      "speed_mbps": 25.22
-    },
-    {
-      "ip": "95.143.196.97",
-      "scheme": "hysteria2",
-      "country": "SE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.356,
-      "download_seconds": 1.297,
-      "speed_mbps": 24.67
-    },
-    {
-      "ip": "95.163.209.247",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.585,
-      "download_seconds": 1.31,
-      "speed_mbps": 24.43
-    },
-    {
-      "ip": "83.141.92.168",
-      "scheme": "vless",
-      "country": "CZ",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.398,
-      "download_seconds": 1.324,
-      "speed_mbps": 24.17
-    },
-    {
-      "ip": "92.246.138.105",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.921,
-      "download_seconds": 1.344,
-      "speed_mbps": 23.81
-    },
-    {
-      "ip": "103.252.91.140",
-      "scheme": "vless",
-      "country": "CO",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.472,
-      "download_seconds": 1.35,
-      "speed_mbps": 23.7
-    },
-    {
-      "ip": "66.163.127.225",
+      "ip": "216.152.147.48",
       "scheme": "trojan",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 4.273,
-      "download_seconds": 1.361,
-      "speed_mbps": 23.51
-    },
-    {
-      "ip": "66.163.127.154",
-      "scheme": "trojan",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 5.339,
-      "download_seconds": 1.399,
-      "speed_mbps": 22.87
-    },
-    {
-      "ip": "66.163.113.9",
-      "scheme": "vless",
       "country": "CA",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.824,
-      "download_seconds": 1.402,
-      "speed_mbps": 22.82
+      "ttfb_seconds": 0.361,
+      "download_seconds": 0.745,
+      "speed_mbps": 42.97
     },
     {
-      "ip": "153.56.229.218",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.588,
-      "download_seconds": 1.428,
-      "speed_mbps": 22.41
-    },
-    {
-      "ip": "66.163.127.9",
+      "ip": "216.152.147.85",
       "scheme": "trojan",
-      "country": "NL",
+      "country": "CA",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 4.195,
-      "download_seconds": 1.469,
-      "speed_mbps": 21.78
+      "ttfb_seconds": 5.129,
+      "download_seconds": 0.762,
+      "speed_mbps": 41.97
     },
     {
-      "ip": "66.163.127.107",
+      "ip": "216.152.155.50",
       "scheme": "trojan",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.503,
+      "download_seconds": 0.764,
+      "speed_mbps": 41.86
+    },
+    {
+      "ip": "48.102.174.174",
+      "scheme": "hysteria2",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.375,
+      "download_seconds": 0.782,
+      "speed_mbps": 40.92
+    },
+    {
+      "ip": "179.254.191.251",
+      "scheme": "hysteria2",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.329,
+      "download_seconds": 0.786,
+      "speed_mbps": 40.73
+    },
+    {
+      "ip": "216.152.147.74",
+      "scheme": "trojan",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 4.773,
+      "download_seconds": 0.796,
+      "speed_mbps": 40.18
+    },
+    {
+      "ip": "195.63.128.21",
+      "scheme": "hysteria2",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.465,
+      "download_seconds": 0.823,
+      "speed_mbps": 38.89
+    },
+    {
+      "ip": "94.183.164.176",
+      "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.33,
-      "download_seconds": 1.474,
-      "speed_mbps": 21.71
-    },
-    {
-      "ip": "147.45.66.208",
-      "scheme": "vless",
-      "country": "TR",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 4.18,
-      "download_seconds": 1.49,
-      "speed_mbps": 21.47
-    },
-    {
-      "ip": "93.183.127.54",
-      "scheme": "vless",
-      "country": "FI",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.338,
-      "download_seconds": 1.492,
-      "speed_mbps": 21.44
-    },
-    {
-      "ip": "195.206.235.74",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.428,
-      "download_seconds": 1.537,
-      "speed_mbps": 20.82
-    },
-    {
-      "ip": "109.248.170.119",
-      "scheme": "vless",
-      "country": "KZ",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.495,
-      "download_seconds": 1.545,
-      "speed_mbps": 20.71
+      "ttfb_seconds": 0.355,
+      "download_seconds": 0.851,
+      "speed_mbps": 37.59
     },
     {
       "ip": "95.85.231.3",
       "scheme": "vless",
       "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.776,
-      "download_seconds": 1.567,
-      "speed_mbps": 20.42
+      "ttfb_seconds": 1.212,
+      "download_seconds": 0.862,
+      "speed_mbps": 37.11
     },
     {
-      "ip": "135.136.183.53",
-      "scheme": "vless",
-      "country": "AE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.908,
-      "download_seconds": 1.583,
-      "speed_mbps": 20.22
-    },
-    {
-      "ip": "178.212.35.198",
-      "scheme": "vless",
-      "country": "IN",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.093,
-      "download_seconds": 1.583,
-      "speed_mbps": 20.21
-    },
-    {
-      "ip": "13.140.253.35",
-      "scheme": "vless",
-      "country": "IN",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.882,
-      "download_seconds": 1.583,
-      "speed_mbps": 20.21
-    },
-    {
-      "ip": "13.143.232.161",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.644,
-      "download_seconds": 1.594,
-      "speed_mbps": 20.07
-    },
-    {
-      "ip": "66.163.118.203",
-      "scheme": "trojan",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 9.938,
-      "download_seconds": 1.619,
-      "speed_mbps": 19.76
-    },
-    {
-      "ip": "66.163.118.115",
-      "scheme": "trojan",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.331,
-      "download_seconds": 1.649,
-      "speed_mbps": 19.41
-    },
-    {
-      "ip": "88.216.214.159",
+      "ip": "138.124.86.230",
       "scheme": "vless",
       "country": "SE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.982,
-      "download_seconds": 1.652,
-      "speed_mbps": 19.37
-    },
-    {
-      "ip": "46.250.240.80",
-      "scheme": "vless",
-      "country": "AU",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.998,
-      "download_seconds": 1.658,
-      "speed_mbps": 19.3
-    },
-    {
-      "ip": "194.233.67.103",
-      "scheme": "vless",
-      "country": "SG",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.957,
-      "download_seconds": 1.678,
-      "speed_mbps": 19.07
-    },
-    {
-      "ip": "149.88.23.202",
-      "scheme": "vmess",
-      "country": "SG",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.669,
-      "download_seconds": 1.682,
-      "speed_mbps": 19.02
-    },
-    {
-      "ip": "66.163.118.62",
-      "scheme": "trojan",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 7.519,
-      "download_seconds": 1.691,
-      "speed_mbps": 18.93
-    },
-    {
-      "ip": "149.88.23.207",
-      "scheme": "vmess",
-      "country": "SG",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.665,
-      "download_seconds": 1.705,
-      "speed_mbps": 18.77
-    },
-    {
-      "ip": "144.48.11.146",
-      "scheme": "vless",
-      "country": "GB",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.961,
-      "download_seconds": 1.722,
-      "speed_mbps": 18.58
-    },
-    {
-      "ip": "66.163.118.40",
-      "scheme": "trojan",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 6.349,
-      "download_seconds": 1.728,
-      "speed_mbps": 18.52
-    },
-    {
-      "ip": "66.163.118.251",
-      "scheme": "trojan",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 9.066,
-      "download_seconds": 1.774,
-      "speed_mbps": 18.04
-    },
-    {
-      "ip": "179.254.127.211",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.365,
-      "download_seconds": 1.801,
-      "speed_mbps": 17.77
-    },
-    {
-      "ip": "38.107.234.57",
-      "scheme": "vmess",
-      "country": "KZ",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.39,
-      "download_seconds": 1.818,
-      "speed_mbps": 17.6
-    },
-    {
-      "ip": "86.54.28.75",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.389,
-      "download_seconds": 1.824,
-      "speed_mbps": 17.55
-    },
-    {
-      "ip": "66.163.118.166",
-      "scheme": "trojan",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 11.199,
-      "download_seconds": 1.837,
-      "speed_mbps": 17.42
-    },
-    {
-      "ip": "147.93.173.45",
-      "scheme": "vless",
-      "country": "SG",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 5.011,
-      "download_seconds": 1.866,
-      "speed_mbps": 17.15
-    },
-    {
-      "ip": "193.111.204.84",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.152,
-      "download_seconds": 1.909,
-      "speed_mbps": 16.76
-    },
-    {
-      "ip": "178.254.168.55",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.456,
-      "download_seconds": 1.914,
-      "speed_mbps": 16.72
-    },
-    {
-      "ip": "153.52.85.198",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.56,
-      "download_seconds": 1.955,
-      "speed_mbps": 16.37
-    },
-    {
-      "ip": "103.106.229.37",
-      "scheme": "vless",
-      "country": "SG",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.444,
-      "download_seconds": 1.976,
-      "speed_mbps": 16.19
-    },
-    {
-      "ip": "83.171.241.164",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.494,
-      "download_seconds": 1.985,
-      "speed_mbps": 16.12
-    },
-    {
-      "ip": "103.106.229.177",
-      "scheme": "vless",
-      "country": "SG",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.211,
-      "download_seconds": 2.005,
-      "speed_mbps": 15.96
-    },
-    {
-      "ip": "66.163.118.244",
-      "scheme": "trojan",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 7.74,
-      "download_seconds": 2.044,
-      "speed_mbps": 15.66
-    },
-    {
-      "ip": "83.171.241.155",
-      "scheme": "vless",
-      "country": "SE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.393,
-      "download_seconds": 2.07,
-      "speed_mbps": 15.46
-    },
-    {
-      "ip": "185.112.59.157",
-      "scheme": "vless",
-      "country": "NL",
       "downloaded_bytes": 4000000,
       "ttfb_seconds": 0.392,
-      "download_seconds": 2.078,
-      "speed_mbps": 15.4
+      "download_seconds": 0.865,
+      "speed_mbps": 36.99
     },
     {
-      "ip": "153.52.143.118",
+      "ip": "94.177.131.113",
       "scheme": "vless",
-      "country": "DE",
+      "country": "CA",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.966,
-      "download_seconds": 2.121,
-      "speed_mbps": 15.09
+      "ttfb_seconds": 1.134,
+      "download_seconds": 0.884,
+      "speed_mbps": 36.21
+    },
+    {
+      "ip": "38.180.206.44",
+      "scheme": "vless",
+      "country": "KZ",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.611,
+      "download_seconds": 0.885,
+      "speed_mbps": 36.17
+    },
+    {
+      "ip": "87.121.112.83",
+      "scheme": "hysteria2",
+      "country": "BG",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.422,
+      "download_seconds": 0.906,
+      "speed_mbps": 35.32
+    },
+    {
+      "ip": "216.152.147.152",
+      "scheme": "trojan",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 6.441,
+      "download_seconds": 0.924,
+      "speed_mbps": 34.65
     },
     {
       "ip": "150.241.74.160",
       "scheme": "hysteria2",
       "country": "EE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.592,
-      "download_seconds": 2.193,
-      "speed_mbps": 14.59
+      "ttfb_seconds": 0.437,
+      "download_seconds": 0.962,
+      "speed_mbps": 33.25
     },
     {
-      "ip": "132.243.66.87",
+      "ip": "93.123.101.198",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.774,
-      "download_seconds": 2.216,
-      "speed_mbps": 14.44
+      "ttfb_seconds": 0.674,
+      "download_seconds": 0.986,
+      "speed_mbps": 32.46
     },
     {
-      "ip": "201.8.64.226",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.623,
-      "download_seconds": 2.288,
-      "speed_mbps": 13.99
-    },
-    {
-      "ip": "196.196.204.137",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.355,
-      "download_seconds": 2.314,
-      "speed_mbps": 13.83
-    },
-    {
-      "ip": "208.69.78.222",
-      "scheme": "trojan",
-      "country": "CH",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 3.146,
-      "download_seconds": 2.352,
-      "speed_mbps": 13.61
-    },
-    {
-      "ip": "201.8.71.230",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.361,
-      "download_seconds": 2.424,
-      "speed_mbps": 13.2
-    },
-    {
-      "ip": "178.172.227.124",
-      "scheme": "vless",
-      "country": "BY",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.364,
-      "download_seconds": 2.465,
-      "speed_mbps": 12.98
-    },
-    {
-      "ip": "132.243.66.220",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.364,
-      "download_seconds": 2.477,
-      "speed_mbps": 12.92
-    },
-    {
-      "ip": "164.37.224.246",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.494,
-      "download_seconds": 2.765,
-      "speed_mbps": 11.57
-    },
-    {
-      "ip": "79.182.70.192",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 5.962,
-      "download_seconds": 2.765,
-      "speed_mbps": 11.57
-    },
-    {
-      "ip": "201.8.64.253",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.715,
-      "download_seconds": 2.859,
-      "speed_mbps": 11.19
-    },
-    {
-      "ip": "104.17.0.1",
+      "ip": "54.116.219.64",
       "scheme": "vmess",
-      "country": "JP",
+      "country": "TW",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.972,
-      "download_seconds": 2.879,
-      "speed_mbps": 11.11
+      "ttfb_seconds": 0.79,
+      "download_seconds": 0.988,
+      "speed_mbps": 32.38
     },
     {
-      "ip": "195.206.235.44",
-      "scheme": "vless",
-      "country": "ES",
+      "ip": "130.49.179.227",
+      "scheme": "vmess",
+      "country": "FR",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 3.062,
-      "download_seconds": 2.943,
-      "speed_mbps": 10.87
+      "ttfb_seconds": 1.139,
+      "download_seconds": 0.996,
+      "speed_mbps": 32.12
     },
     {
-      "ip": "208.69.78.29",
-      "scheme": "trojan",
-      "country": "CH",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 5.584,
-      "download_seconds": 3.057,
-      "speed_mbps": 10.47
-    },
-    {
-      "ip": "152.32.254.68",
-      "scheme": "hysteria2",
-      "country": "HK",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.422,
-      "download_seconds": 3.083,
-      "speed_mbps": 10.38
-    },
-    {
-      "ip": "208.69.78.158",
-      "scheme": "trojan",
-      "country": "CH",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 6.735,
-      "download_seconds": 3.246,
-      "speed_mbps": 9.86
-    },
-    {
-      "ip": "196.196.148.90",
-      "scheme": "vless",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 3.236,
-      "download_seconds": 3.308,
-      "speed_mbps": 9.67
-    },
-    {
-      "ip": "5.180.27.134",
-      "scheme": "vless",
-      "country": "KZ",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.942,
-      "download_seconds": 3.382,
-      "speed_mbps": 9.46
-    },
-    {
-      "ip": "83.141.93.80",
-      "scheme": "vless",
-      "country": "DE",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.186,
-      "download_seconds": 3.41,
-      "speed_mbps": 9.38
-    },
-    {
-      "ip": "208.69.78.33",
-      "scheme": "trojan",
-      "country": "CH",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.629,
-      "download_seconds": 3.616,
-      "speed_mbps": 8.85
-    },
-    {
-      "ip": "93.123.85.103",
+      "ip": "138.124.245.102",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.61,
-      "download_seconds": 3.665,
-      "speed_mbps": 8.73
+      "ttfb_seconds": 0.624,
+      "download_seconds": 0.997,
+      "speed_mbps": 32.09
     },
     {
-      "ip": "79.182.39.131",
+      "ip": "195.63.138.212",
+      "scheme": "hysteria2",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.482,
+      "download_seconds": 1.005,
+      "speed_mbps": 31.85
+    },
+    {
+      "ip": "195.252.179.56",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.588,
+      "download_seconds": 1.012,
+      "speed_mbps": 31.61
+    },
+    {
+      "ip": "143.246.211.240",
+      "scheme": "vless",
+      "country": "FR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.766,
+      "download_seconds": 1.015,
+      "speed_mbps": 31.53
+    },
+    {
+      "ip": "62.210.24.143",
+      "scheme": "vless",
+      "country": "FR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.388,
+      "download_seconds": 1.016,
+      "speed_mbps": 31.51
+    },
+    {
+      "ip": "138.124.125.193",
+      "scheme": "vless",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.412,
+      "download_seconds": 1.016,
+      "speed_mbps": 31.51
+    },
+    {
+      "ip": "216.152.147.93",
+      "scheme": "trojan",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.816,
+      "download_seconds": 1.018,
+      "speed_mbps": 31.45
+    },
+    {
+      "ip": "142.202.51.42",
+      "scheme": "vmess",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.614,
+      "download_seconds": 1.02,
+      "speed_mbps": 31.36
+    },
+    {
+      "ip": "109.106.15.99",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.591,
+      "download_seconds": 1.021,
+      "speed_mbps": 31.34
+    },
+    {
+      "ip": "217.60.94.115",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.599,
+      "download_seconds": 1.024,
+      "speed_mbps": 31.26
+    },
+    {
+      "ip": "78.17.215.141",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.698,
+      "download_seconds": 1.027,
+      "speed_mbps": 31.15
+    },
+    {
+      "ip": "51.158.206.87",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.573,
+      "download_seconds": 1.037,
+      "speed_mbps": 30.87
+    },
+    {
+      "ip": "201.51.12.98",
+      "scheme": "vless",
+      "country": "RU",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.397,
+      "download_seconds": 1.038,
+      "speed_mbps": 30.83
+    },
+    {
+      "ip": "188.225.57.185",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.607,
+      "download_seconds": 1.042,
+      "speed_mbps": 30.71
+    },
+    {
+      "ip": "51.158.206.34",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.56,
+      "download_seconds": 1.043,
+      "speed_mbps": 30.67
+    },
+    {
+      "ip": "2.59.183.167",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.756,
+      "download_seconds": 1.048,
+      "speed_mbps": 30.54
+    },
+    {
+      "ip": "185.177.229.95",
+      "scheme": "vmess",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.615,
+      "download_seconds": 1.051,
+      "speed_mbps": 30.45
+    },
+    {
+      "ip": "51.158.206.8",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.563,
+      "download_seconds": 1.056,
+      "speed_mbps": 30.31
+    },
+    {
+      "ip": "134.195.196.211",
+      "scheme": "vmess",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.246,
+      "download_seconds": 1.06,
+      "speed_mbps": 30.2
+    },
+    {
+      "ip": "216.152.147.201",
+      "scheme": "trojan",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 6.13,
+      "download_seconds": 1.06,
+      "speed_mbps": 30.19
+    },
+    {
+      "ip": "51.158.206.86",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
       "ttfb_seconds": 0.569,
-      "download_seconds": 3.866,
-      "speed_mbps": 8.28
+      "download_seconds": 1.065,
+      "speed_mbps": 30.05
     },
     {
-      "ip": "136.148.221.222",
+      "ip": "188.116.27.6",
       "scheme": "vless",
-      "country": "SE",
+      "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.41,
-      "download_seconds": 3.931,
-      "speed_mbps": 8.14
+      "ttfb_seconds": 1.614,
+      "download_seconds": 1.065,
+      "speed_mbps": 30.05
     },
     {
-      "ip": "143.246.41.214",
+      "ip": "51.158.206.98",
       "scheme": "vless",
-      "country": "PL",
+      "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.909,
-      "download_seconds": 4.167,
-      "speed_mbps": 7.68
+      "ttfb_seconds": 0.563,
+      "download_seconds": 1.066,
+      "speed_mbps": 30.01
     },
     {
-      "ip": "208.69.78.208",
+      "ip": "51.158.206.29",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.586,
+      "download_seconds": 1.067,
+      "speed_mbps": 29.99
+    },
+    {
+      "ip": "149.7.16.228",
+      "scheme": "vmess",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.622,
+      "download_seconds": 1.067,
+      "speed_mbps": 29.99
+    },
+    {
+      "ip": "94.183.164.96",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.343,
+      "download_seconds": 1.069,
+      "speed_mbps": 29.94
+    },
+    {
+      "ip": "193.108.117.61",
+      "scheme": "vmess",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.588,
+      "download_seconds": 1.069,
+      "speed_mbps": 29.94
+    },
+    {
+      "ip": "51.158.206.19",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.573,
+      "download_seconds": 1.069,
+      "speed_mbps": 29.92
+    },
+    {
+      "ip": "130.12.242.106",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.611,
+      "download_seconds": 1.073,
+      "speed_mbps": 29.83
+    },
+    {
+      "ip": "136.176.68.34",
+      "scheme": "vless",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.616,
+      "download_seconds": 1.076,
+      "speed_mbps": 29.74
+    },
+    {
+      "ip": "51.158.206.96",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.563,
+      "download_seconds": 1.08,
+      "speed_mbps": 29.64
+    },
+    {
+      "ip": "178.17.52.31",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.341,
+      "download_seconds": 1.084,
+      "speed_mbps": 29.51
+    },
+    {
+      "ip": "144.31.125.60",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.632,
+      "download_seconds": 1.085,
+      "speed_mbps": 29.5
+    },
+    {
+      "ip": "193.108.119.29",
       "scheme": "trojan",
-      "country": "CH",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.966,
-      "download_seconds": 4.302,
-      "speed_mbps": 7.44
+      "ttfb_seconds": 0.585,
+      "download_seconds": 1.088,
+      "speed_mbps": 29.4
     },
     {
-      "ip": "5.59.204.245",
+      "ip": "87.199.205.28",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.121,
-      "download_seconds": 4.38,
-      "speed_mbps": 7.31
+      "ttfb_seconds": 0.715,
+      "download_seconds": 1.089,
+      "speed_mbps": 29.38
     },
     {
-      "ip": "83.141.68.0",
-      "scheme": "vless",
-      "country": "NL",
+      "ip": "193.108.119.134",
+      "scheme": "trojan",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.856,
-      "download_seconds": 4.383,
-      "speed_mbps": 7.3
+      "ttfb_seconds": 0.587,
+      "download_seconds": 1.096,
+      "speed_mbps": 29.19
     },
     {
-      "ip": "162.159.135.234",
+      "ip": "193.108.119.87",
       "scheme": "vmess",
-      "country": "JP",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 5.569,
-      "download_seconds": 4.884,
-      "speed_mbps": 6.55
+      "ttfb_seconds": 0.601,
+      "download_seconds": 1.096,
+      "speed_mbps": 29.19
     },
     {
-      "ip": "45.43.153.33",
+      "ip": "195.201.120.42",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.363,
+      "download_seconds": 1.099,
+      "speed_mbps": 29.12
+    },
+    {
+      "ip": "51.158.206.26",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.417,
-      "download_seconds": 4.903,
-      "speed_mbps": 6.53
+      "ttfb_seconds": 0.586,
+      "download_seconds": 1.104,
+      "speed_mbps": 29.0
     },
     {
-      "ip": "85.192.30.88",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.829,
-      "download_seconds": 5.069,
-      "speed_mbps": 6.31
-    },
-    {
-      "ip": "31.77.158.172",
-      "scheme": "vless",
-      "country": "FI",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.558,
-      "download_seconds": 5.145,
-      "speed_mbps": 6.22
-    },
-    {
-      "ip": "13.143.239.94",
-      "scheme": "vless",
-      "country": "PL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.668,
-      "download_seconds": 5.147,
-      "speed_mbps": 6.22
-    },
-    {
-      "ip": "201.8.64.254",
+      "ip": "51.158.206.93",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.496,
-      "download_seconds": 5.2,
-      "speed_mbps": 6.15
+      "ttfb_seconds": 0.594,
+      "download_seconds": 1.106,
+      "speed_mbps": 28.94
     },
     {
-      "ip": "196.196.149.80",
-      "scheme": "vless",
-      "country": "ES",
+      "ip": "193.108.119.15",
+      "scheme": "trojan",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 3.482,
-      "download_seconds": 5.316,
-      "speed_mbps": 6.02
+      "ttfb_seconds": 0.582,
+      "download_seconds": 1.106,
+      "speed_mbps": 28.92
     },
     {
-      "ip": "196.245.52.183",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.635,
-      "download_seconds": 5.479,
-      "speed_mbps": 5.84
-    },
-    {
-      "ip": "104.21.50.177",
-      "scheme": "vmess",
-      "country": "JP",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 4.717,
-      "download_seconds": 5.632,
-      "speed_mbps": 5.68
-    },
-    {
-      "ip": "104.222.183.180",
+      "ip": "51.158.206.25",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.566,
-      "download_seconds": 5.766,
-      "speed_mbps": 5.55
+      "ttfb_seconds": 0.589,
+      "download_seconds": 1.107,
+      "speed_mbps": 28.9
     },
     {
-      "ip": "132.243.67.148",
-      "scheme": "vless",
-      "country": "ES",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.855,
-      "download_seconds": 5.88,
-      "speed_mbps": 5.44
-    },
-    {
-      "ip": "79.182.70.232",
+      "ip": "51.158.206.80",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.698,
-      "download_seconds": 6.181,
-      "speed_mbps": 5.18
+      "ttfb_seconds": 0.618,
+      "download_seconds": 1.109,
+      "speed_mbps": 28.87
     },
     {
-      "ip": "37.235.247.81",
+      "ip": "147.45.47.101",
       "scheme": "vless",
       "country": "FR",
       "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.645,
+      "download_seconds": 1.11,
+      "speed_mbps": 28.82
+    },
+    {
+      "ip": "212.102.38.25",
+      "scheme": "vless",
+      "country": "CZ",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.93,
+      "download_seconds": 1.111,
+      "speed_mbps": 28.81
+    },
+    {
+      "ip": "177.177.215.45",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.736,
+      "download_seconds": 1.117,
+      "speed_mbps": 28.66
+    },
+    {
+      "ip": "51.158.206.20",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.588,
+      "download_seconds": 1.117,
+      "speed_mbps": 28.64
+    },
+    {
+      "ip": "62.210.91.2",
+      "scheme": "vless",
+      "country": "FR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.636,
+      "download_seconds": 1.125,
+      "speed_mbps": 28.45
+    },
+    {
+      "ip": "193.108.119.78",
+      "scheme": "trojan",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.602,
+      "download_seconds": 1.13,
+      "speed_mbps": 28.31
+    },
+    {
+      "ip": "172.67.139.189",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.965,
+      "download_seconds": 1.133,
+      "speed_mbps": 28.24
+    },
+    {
+      "ip": "48.103.133.47",
+      "scheme": "vless",
+      "country": "FR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.609,
+      "download_seconds": 1.14,
+      "speed_mbps": 28.08
+    },
+    {
+      "ip": "193.108.119.193",
+      "scheme": "trojan",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
       "ttfb_seconds": 0.913,
-      "download_seconds": 6.22,
-      "speed_mbps": 5.14
+      "download_seconds": 1.14,
+      "speed_mbps": 28.08
     },
     {
-      "ip": "154.47.19.225",
+      "ip": "144.31.140.125",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.862,
+      "download_seconds": 1.143,
+      "speed_mbps": 28.01
+    },
+    {
+      "ip": "130.78.30.147",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.619,
+      "download_seconds": 1.144,
+      "speed_mbps": 27.97
+    },
+    {
+      "ip": "87.120.92.68",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.922,
+      "download_seconds": 1.144,
+      "speed_mbps": 27.97
+    },
+    {
+      "ip": "187.7.206.179",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.598,
+      "download_seconds": 1.145,
+      "speed_mbps": 27.94
+    },
+    {
+      "ip": "193.108.119.96",
+      "scheme": "trojan",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.634,
+      "download_seconds": 1.146,
+      "speed_mbps": 27.93
+    },
+    {
+      "ip": "51.158.206.97",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.585,
+      "download_seconds": 1.154,
+      "speed_mbps": 27.73
+    },
+    {
+      "ip": "51.158.206.12",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.618,
+      "download_seconds": 1.154,
+      "speed_mbps": 27.73
+    },
+    {
+      "ip": "23.162.152.127",
       "scheme": "vmess",
-      "country": "AT",
+      "country": "FR",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.676,
-      "download_seconds": 6.405,
-      "speed_mbps": 5.0
+      "ttfb_seconds": 0.653,
+      "download_seconds": 1.154,
+      "speed_mbps": 27.73
     },
     {
-      "ip": "196.242.10.15",
+      "ip": "187.7.206.176",
       "scheme": "vless",
-      "country": "NL",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.276,
-      "download_seconds": 6.459,
-      "speed_mbps": 4.95
+      "ttfb_seconds": 0.605,
+      "download_seconds": 1.161,
+      "speed_mbps": 27.56
     },
     {
-      "ip": "196.196.148.85",
+      "ip": "192.142.12.198",
       "scheme": "vless",
-      "country": "NL",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 4.096,
-      "download_seconds": 6.556,
-      "speed_mbps": 4.88
+      "ttfb_seconds": 0.589,
+      "download_seconds": 1.163,
+      "speed_mbps": 27.53
     },
     {
-      "ip": "196.199.122.2",
+      "ip": "153.56.229.218",
       "scheme": "vless",
-      "country": "ES",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.833,
-      "download_seconds": 6.593,
-      "speed_mbps": 4.85
+      "ttfb_seconds": 0.69,
+      "download_seconds": 1.166,
+      "speed_mbps": 27.45
     },
     {
-      "ip": "196.196.149.81",
+      "ip": "169.40.34.53",
       "scheme": "vless",
-      "country": "ES",
+      "country": "FI",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.734,
-      "download_seconds": 7.154,
-      "speed_mbps": 4.47
+      "ttfb_seconds": 0.675,
+      "download_seconds": 1.167,
+      "speed_mbps": 27.42
     },
     {
-      "ip": "195.206.235.110",
+      "ip": "88.216.214.159",
       "scheme": "vless",
-      "country": "NL",
+      "country": "SE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.449,
-      "download_seconds": 8.399,
-      "speed_mbps": 3.81
+      "ttfb_seconds": 1.42,
+      "download_seconds": 1.167,
+      "speed_mbps": 27.42
     },
     {
-      "ip": "13.143.239.6",
+      "ip": "62.210.91.10",
       "scheme": "vless",
-      "country": "NL",
+      "country": "FR",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.277,
-      "download_seconds": 8.909,
-      "speed_mbps": 3.59
+      "ttfb_seconds": 0.669,
+      "download_seconds": 1.175,
+      "speed_mbps": 27.24
     },
     {
-      "ip": "45.192.193.54",
-      "scheme": "vless",
-      "country": "HK",
+      "ip": "193.108.119.34",
+      "scheme": "trojan",
+      "country": "DE",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.662,
-      "download_seconds": 8.907,
-      "speed_mbps": 3.59
+      "ttfb_seconds": 1.197,
+      "download_seconds": 1.175,
+      "speed_mbps": 27.24
     },
     {
-      "ip": "195.206.235.48",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.613,
-      "download_seconds": 9.058,
-      "speed_mbps": 3.53
-    },
-    {
-      "ip": "93.123.85.59",
-      "scheme": "vless",
-      "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.658,
-      "download_seconds": 9.467,
-      "speed_mbps": 3.38
-    },
-    {
-      "ip": "150.251.141.246",
+      "ip": "66.163.118.113",
       "scheme": "vless",
       "country": "ES",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.704,
-      "download_seconds": 10.152,
-      "speed_mbps": 3.15
+      "ttfb_seconds": 0.773,
+      "download_seconds": 1.177,
+      "speed_mbps": 27.2
     },
     {
-      "ip": "45.86.75.53",
+      "ip": "94.103.168.62",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.305,
+      "download_seconds": 1.177,
+      "speed_mbps": 27.18
+    },
+    {
+      "ip": "51.158.206.103",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.63,
-      "download_seconds": 10.6,
-      "speed_mbps": 3.02
+      "ttfb_seconds": 0.616,
+      "download_seconds": 1.18,
+      "speed_mbps": 27.11
     },
     {
-      "ip": "79.182.70.190",
+      "ip": "193.233.198.117",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.603,
+      "download_seconds": 1.188,
+      "speed_mbps": 26.94
+    },
+    {
+      "ip": "31.77.28.8",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.304,
+      "download_seconds": 1.191,
+      "speed_mbps": 26.87
+    },
+    {
+      "ip": "150.241.87.52",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.825,
+      "download_seconds": 1.204,
+      "speed_mbps": 26.57
+    },
+    {
+      "ip": "45.194.66.177",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.689,
+      "download_seconds": 1.206,
+      "speed_mbps": 26.53
+    },
+    {
+      "ip": "13.141.51.100",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.743,
+      "download_seconds": 1.218,
+      "speed_mbps": 26.27
+    },
+    {
+      "ip": "95.85.243.72",
+      "scheme": "vless",
+      "country": "EE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.746,
+      "download_seconds": 1.224,
+      "speed_mbps": 26.15
+    },
+    {
+      "ip": "216.152.147.89",
+      "scheme": "trojan",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.752,
+      "download_seconds": 1.229,
+      "speed_mbps": 26.04
+    },
+    {
+      "ip": "188.114.98.0",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.494,
-      "download_seconds": 10.892,
-      "speed_mbps": 2.94
+      "ttfb_seconds": 1.525,
+      "download_seconds": 1.232,
+      "speed_mbps": 25.98
     },
     {
-      "ip": "132.243.67.190",
+      "ip": "138.199.55.230",
+      "scheme": "vmess",
+      "country": "SE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.689,
+      "download_seconds": 1.236,
+      "speed_mbps": 25.9
+    },
+    {
+      "ip": "222.167.245.16",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.691,
+      "download_seconds": 1.236,
+      "speed_mbps": 25.88
+    },
+    {
+      "ip": "149.88.23.202",
+      "scheme": "vmess",
+      "country": "SG",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.553,
+      "download_seconds": 1.238,
+      "speed_mbps": 25.84
+    },
+    {
+      "ip": "45.192.12.92",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.731,
+      "download_seconds": 1.24,
+      "speed_mbps": 25.81
+    },
+    {
+      "ip": "149.88.23.207",
+      "scheme": "vmess",
+      "country": "SG",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.492,
+      "download_seconds": 1.243,
+      "speed_mbps": 25.75
+    },
+    {
+      "ip": "82.118.16.189",
+      "scheme": "vless",
+      "country": "IT",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.754,
+      "download_seconds": 1.248,
+      "speed_mbps": 25.64
+    },
+    {
+      "ip": "46.28.71.247",
       "scheme": "vless",
       "country": "ES",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.415,
-      "download_seconds": 10.969,
-      "speed_mbps": 2.92
+      "ttfb_seconds": 1.106,
+      "download_seconds": 1.25,
+      "speed_mbps": 25.59
     },
     {
-      "ip": "9.247.54.228",
+      "ip": "2.26.251.236",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 7.965,
+      "download_seconds": 1.255,
+      "speed_mbps": 25.51
+    },
+    {
+      "ip": "195.123.213.28",
+      "scheme": "vless",
+      "country": "LV",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.083,
+      "download_seconds": 1.262,
+      "speed_mbps": 25.36
+    },
+    {
+      "ip": "62.93.166.184",
+      "scheme": "vmess",
+      "country": "SE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.726,
+      "download_seconds": 1.263,
+      "speed_mbps": 25.34
+    },
+    {
+      "ip": "31.77.144.255",
+      "scheme": "vless",
+      "country": "FI",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.401,
+      "download_seconds": 1.275,
+      "speed_mbps": 25.1
+    },
+    {
+      "ip": "80.79.121.156",
+      "scheme": "vless",
+      "country": "EE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.683,
+      "download_seconds": 1.281,
+      "speed_mbps": 24.99
+    },
+    {
+      "ip": "135.136.33.134",
+      "scheme": "vless",
+      "country": "DK",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.756,
+      "download_seconds": 1.286,
+      "speed_mbps": 24.89
+    },
+    {
+      "ip": "179.253.80.175",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.47,
+      "download_seconds": 1.297,
+      "speed_mbps": 24.66
+    },
+    {
+      "ip": "95.85.232.83",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.753,
+      "download_seconds": 1.306,
+      "speed_mbps": 24.51
+    },
+    {
+      "ip": "201.34.142.108",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.481,
-      "download_seconds": 11.72,
-      "speed_mbps": 2.73
+      "ttfb_seconds": 0.54,
+      "download_seconds": 1.314,
+      "speed_mbps": 24.35
     },
     {
-      "ip": "196.196.148.63",
+      "ip": "103.14.27.207",
+      "scheme": "vmess",
+      "country": "BR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.777,
+      "download_seconds": 1.319,
+      "speed_mbps": 24.26
+    },
+    {
+      "ip": "46.250.240.80",
+      "scheme": "vless",
+      "country": "AU",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.795,
+      "download_seconds": 1.33,
+      "speed_mbps": 24.07
+    },
+    {
+      "ip": "193.160.208.240",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.557,
+      "download_seconds": 1.334,
+      "speed_mbps": 23.99
+    },
+    {
+      "ip": "103.88.232.55",
+      "scheme": "vmess",
+      "country": "BR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.774,
+      "download_seconds": 1.341,
+      "speed_mbps": 23.86
+    },
+    {
+      "ip": "95.128.157.245",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 6.276,
+      "download_seconds": 1.348,
+      "speed_mbps": 23.73
+    },
+    {
+      "ip": "178.254.168.55",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.832,
-      "download_seconds": 12.29,
-      "speed_mbps": 2.6
+      "ttfb_seconds": 0.622,
+      "download_seconds": 1.351,
+      "speed_mbps": 23.69
     },
     {
-      "ip": "196.245.153.111",
+      "ip": "31.6.1.115",
+      "scheme": "vless",
+      "country": "RO",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.56,
+      "download_seconds": 1.354,
+      "speed_mbps": 23.63
+    },
+    {
+      "ip": "86.54.28.75",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.388,
-      "download_seconds": 13.138,
-      "speed_mbps": 2.44
+      "ttfb_seconds": 0.712,
+      "download_seconds": 1.372,
+      "speed_mbps": 23.32
     },
     {
       "ip": "103.162.14.250",
       "scheme": "vless",
       "country": "VN",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 2.517,
-      "download_seconds": 13.094,
-      "speed_mbps": 2.44
+      "ttfb_seconds": 1.629,
+      "download_seconds": 1.373,
+      "speed_mbps": 23.31
     },
     {
-      "ip": "13.143.239.162",
+      "ip": "195.123.226.21",
+      "scheme": "vless",
+      "country": "BG",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.876,
+      "download_seconds": 1.379,
+      "speed_mbps": 23.21
+    },
+    {
+      "ip": "38.91.107.49",
+      "scheme": "vmess",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.433,
+      "download_seconds": 1.387,
+      "speed_mbps": 23.08
+    },
+    {
+      "ip": "45.88.176.223",
+      "scheme": "vless",
+      "country": "RU",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.747,
+      "download_seconds": 1.402,
+      "speed_mbps": 22.83
+    },
+    {
+      "ip": "103.252.91.140",
+      "scheme": "vless",
+      "country": "CO",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.739,
+      "download_seconds": 1.418,
+      "speed_mbps": 22.56
+    },
+    {
+      "ip": "72.56.38.83",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.681,
-      "download_seconds": 14.166,
-      "speed_mbps": 2.26
+      "ttfb_seconds": 1.036,
+      "download_seconds": 1.426,
+      "speed_mbps": 22.44
     },
     {
-      "ip": "196.245.153.92",
+      "ip": "185.246.155.91",
+      "scheme": "vless",
+      "country": "TR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.018,
+      "download_seconds": 1.43,
+      "speed_mbps": 22.38
+    },
+    {
+      "ip": "178.172.227.124",
+      "scheme": "vless",
+      "country": "BY",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.022,
+      "download_seconds": 1.43,
+      "speed_mbps": 22.38
+    },
+    {
+      "ip": "144.31.90.235",
+      "scheme": "vless",
+      "country": "FI",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.804,
+      "download_seconds": 1.435,
+      "speed_mbps": 22.29
+    },
+    {
+      "ip": "147.45.66.208",
+      "scheme": "vless",
+      "country": "TR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 5.6,
+      "download_seconds": 1.462,
+      "speed_mbps": 21.89
+    },
+    {
+      "ip": "201.51.11.65",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.46,
-      "download_seconds": 16.008,
-      "speed_mbps": 2.0
+      "ttfb_seconds": 1.087,
+      "download_seconds": 1.482,
+      "speed_mbps": 21.59
+    },
+    {
+      "ip": "144.48.11.146",
+      "scheme": "vless",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 5.66,
+      "download_seconds": 1.534,
+      "speed_mbps": 20.85
+    },
+    {
+      "ip": "109.248.170.119",
+      "scheme": "vless",
+      "country": "KZ",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.597,
+      "download_seconds": 1.546,
+      "speed_mbps": 20.7
+    },
+    {
+      "ip": "13.143.239.236",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.467,
+      "download_seconds": 1.556,
+      "speed_mbps": 20.57
+    },
+    {
+      "ip": "178.212.35.198",
+      "scheme": "vless",
+      "country": "IN",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.936,
+      "download_seconds": 1.586,
+      "speed_mbps": 20.17
+    },
+    {
+      "ip": "5.180.27.134",
+      "scheme": "vless",
+      "country": "KZ",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.138,
+      "download_seconds": 1.593,
+      "speed_mbps": 20.09
+    },
+    {
+      "ip": "147.45.108.45",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.173,
+      "download_seconds": 1.594,
+      "speed_mbps": 20.08
+    },
+    {
+      "ip": "103.106.229.177",
+      "scheme": "vless",
+      "country": "SG",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.898,
+      "download_seconds": 1.628,
+      "speed_mbps": 19.66
+    },
+    {
+      "ip": "66.163.127.225",
+      "scheme": "trojan",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.827,
+      "download_seconds": 1.666,
+      "speed_mbps": 19.21
+    },
+    {
+      "ip": "94.183.234.245",
+      "scheme": "vless",
+      "country": "GB",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.015,
+      "download_seconds": 1.723,
+      "speed_mbps": 18.57
+    },
+    {
+      "ip": "195.206.235.215",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.177,
+      "download_seconds": 1.762,
+      "speed_mbps": 18.17
+    },
+    {
+      "ip": "85.90.197.220",
+      "scheme": "vless",
+      "country": "GR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.868,
+      "download_seconds": 1.782,
+      "speed_mbps": 17.95
+    },
+    {
+      "ip": "195.206.235.72",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.742,
+      "download_seconds": 1.802,
+      "speed_mbps": 17.76
+    },
+    {
+      "ip": "66.163.113.9",
+      "scheme": "vless",
+      "country": "CA",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.419,
+      "download_seconds": 1.811,
+      "speed_mbps": 17.67
+    },
+    {
+      "ip": "148.135.203.10",
+      "scheme": "hysteria2",
+      "country": "FI",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.631,
+      "download_seconds": 1.853,
+      "speed_mbps": 17.27
+    },
+    {
+      "ip": "103.106.229.37",
+      "scheme": "vless",
+      "country": "SG",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.019,
+      "download_seconds": 1.945,
+      "speed_mbps": 16.45
     },
     {
       "ip": "195.206.235.232",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.949,
-      "download_seconds": 16.93,
-      "speed_mbps": 1.89
+      "ttfb_seconds": 1.877,
+      "download_seconds": 1.994,
+      "speed_mbps": 16.05
     },
     {
-      "ip": "185.14.29.29",
+      "ip": "66.163.118.166",
+      "scheme": "trojan",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 8.397,
+      "download_seconds": 2.022,
+      "speed_mbps": 15.83
+    },
+    {
+      "ip": "66.163.118.251",
+      "scheme": "trojan",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 5.487,
+      "download_seconds": 2.068,
+      "speed_mbps": 15.47
+    },
+    {
+      "ip": "195.206.235.34",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.268,
-      "download_seconds": 17.678,
-      "speed_mbps": 1.81
+      "ttfb_seconds": 1.934,
+      "download_seconds": 2.087,
+      "speed_mbps": 15.33
     },
     {
-      "ip": "150.251.143.47",
+      "ip": "179.254.127.211",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.569,
+      "download_seconds": 2.103,
+      "speed_mbps": 15.22
+    },
+    {
+      "ip": "152.32.254.68",
+      "scheme": "hysteria2",
+      "country": "HK",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.303,
+      "download_seconds": 2.145,
+      "speed_mbps": 14.92
+    },
+    {
+      "ip": "66.163.118.131",
+      "scheme": "trojan",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 8.027,
+      "download_seconds": 2.162,
+      "speed_mbps": 14.8
+    },
+    {
+      "ip": "66.163.118.203",
+      "scheme": "trojan",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 6.379,
+      "download_seconds": 2.191,
+      "speed_mbps": 14.61
+    },
+    {
+      "ip": "83.229.84.243",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.754,
+      "download_seconds": 2.197,
+      "speed_mbps": 14.56
+    },
+    {
+      "ip": "145.223.68.58",
+      "scheme": "vless",
+      "country": "FR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.771,
+      "download_seconds": 2.203,
+      "speed_mbps": 14.53
+    },
+    {
+      "ip": "66.163.118.62",
+      "scheme": "trojan",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.481,
+      "download_seconds": 2.204,
+      "speed_mbps": 14.52
+    },
+    {
+      "ip": "66.163.118.244",
+      "scheme": "trojan",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.009,
+      "download_seconds": 2.206,
+      "speed_mbps": 14.5
+    },
+    {
+      "ip": "13.143.187.220",
+      "scheme": "vless",
+      "country": "FI",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.311,
+      "download_seconds": 2.237,
+      "speed_mbps": 14.3
+    },
+    {
+      "ip": "83.171.241.164",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.044,
+      "download_seconds": 2.258,
+      "speed_mbps": 14.17
+    },
+    {
+      "ip": "38.107.234.57",
+      "scheme": "vless",
+      "country": "KZ",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.718,
+      "download_seconds": 2.261,
+      "speed_mbps": 14.15
+    },
+    {
+      "ip": "150.251.141.246",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.578,
+      "download_seconds": 2.316,
+      "speed_mbps": 13.82
+    },
+    {
+      "ip": "201.8.64.253",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.512,
-      "download_seconds": 21.887,
-      "speed_mbps": 1.46
+      "ttfb_seconds": 1.12,
+      "download_seconds": 2.358,
+      "speed_mbps": 13.57
     },
     {
-      "ip": "196.245.153.104",
+      "ip": "93.183.127.54",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
-      "ttfb_seconds": 1.504,
-      "download_seconds": 21.865,
-      "speed_mbps": 1.46
+      "ttfb_seconds": 0.431,
+      "download_seconds": 2.391,
+      "speed_mbps": 13.38
+    },
+    {
+      "ip": "185.112.59.157",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.614,
+      "download_seconds": 2.519,
+      "speed_mbps": 12.71
+    },
+    {
+      "ip": "13.143.239.162",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.115,
+      "download_seconds": 2.617,
+      "speed_mbps": 12.23
+    },
+    {
+      "ip": "103.163.24.22",
+      "scheme": "vless",
+      "country": "VN",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 7.179,
+      "download_seconds": 2.915,
+      "speed_mbps": 10.98
+    },
+    {
+      "ip": "83.141.68.0",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.924,
+      "download_seconds": 2.931,
+      "speed_mbps": 10.92
+    },
+    {
+      "ip": "162.19.192.89",
+      "scheme": "vmess",
+      "country": "TW",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 15.485,
+      "download_seconds": 2.957,
+      "speed_mbps": 10.82
+    },
+    {
+      "ip": "196.245.153.92",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.372,
+      "download_seconds": 2.969,
+      "speed_mbps": 10.78
+    },
+    {
+      "ip": "92.246.138.105",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.58,
+      "download_seconds": 3.047,
+      "speed_mbps": 10.5
+    },
+    {
+      "ip": "132.243.67.148",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.712,
+      "download_seconds": 3.182,
+      "speed_mbps": 10.06
+    },
+    {
+      "ip": "196.196.204.137",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 7.266,
+      "download_seconds": 3.185,
+      "speed_mbps": 10.05
+    },
+    {
+      "ip": "196.199.122.2",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 4.103,
+      "download_seconds": 3.19,
+      "speed_mbps": 10.03
+    },
+    {
+      "ip": "201.8.64.254",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.188,
+      "download_seconds": 3.236,
+      "speed_mbps": 9.89
+    },
+    {
+      "ip": "185.95.231.156",
+      "scheme": "vless",
+      "country": "US",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.285,
+      "download_seconds": 3.248,
+      "speed_mbps": 9.85
+    },
+    {
+      "ip": "196.196.148.85",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.01,
+      "download_seconds": 3.341,
+      "speed_mbps": 9.58
+    },
+    {
+      "ip": "195.206.235.44",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 4.259,
+      "download_seconds": 3.387,
+      "speed_mbps": 9.45
+    },
+    {
+      "ip": "154.47.19.225",
+      "scheme": "vmess",
+      "country": "AT",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.14,
+      "download_seconds": 3.427,
+      "speed_mbps": 9.34
+    },
+    {
+      "ip": "13.140.253.35",
+      "scheme": "vless",
+      "country": "IN",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.452,
+      "download_seconds": 3.545,
+      "speed_mbps": 9.03
     },
     {
       "ip": "164.37.224.51",
       "scheme": "vless",
       "country": "NL",
       "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.591,
+      "download_seconds": 3.553,
+      "speed_mbps": 9.01
+    },
+    {
+      "ip": "196.196.148.90",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.395,
+      "download_seconds": 3.568,
+      "speed_mbps": 8.97
+    },
+    {
+      "ip": "132.243.163.253",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.736,
+      "download_seconds": 3.712,
+      "speed_mbps": 8.62
+    },
+    {
+      "ip": "13.143.239.94",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.858,
+      "download_seconds": 3.75,
+      "speed_mbps": 8.53
+    },
+    {
+      "ip": "83.141.92.168",
+      "scheme": "vless",
+      "country": "CZ",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.054,
+      "download_seconds": 3.866,
+      "speed_mbps": 8.28
+    },
+    {
+      "ip": "45.86.75.53",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.484,
+      "download_seconds": 3.915,
+      "speed_mbps": 8.17
+    },
+    {
+      "ip": "85.192.30.88",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.105,
+      "download_seconds": 3.979,
+      "speed_mbps": 8.04
+    },
+    {
+      "ip": "208.69.78.19",
+      "scheme": "trojan",
+      "country": "CH",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 4.543,
+      "download_seconds": 3.987,
+      "speed_mbps": 8.03
+    },
+    {
+      "ip": "208.69.78.222",
+      "scheme": "trojan",
+      "country": "CH",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 5.631,
+      "download_seconds": 4.039,
+      "speed_mbps": 7.92
+    },
+    {
+      "ip": "208.69.78.208",
+      "scheme": "trojan",
+      "country": "CH",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.903,
+      "download_seconds": 4.286,
+      "speed_mbps": 7.47
+    },
+    {
+      "ip": "155.103.71.207",
+      "scheme": "vless",
+      "country": "TR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.902,
+      "download_seconds": 4.568,
+      "speed_mbps": 7.01
+    },
+    {
+      "ip": "143.246.41.214",
+      "scheme": "vless",
+      "country": "PL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.938,
+      "download_seconds": 4.715,
+      "speed_mbps": 6.79
+    },
+    {
+      "ip": "132.243.67.190",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.11,
+      "download_seconds": 4.861,
+      "speed_mbps": 6.58
+    },
+    {
+      "ip": "79.182.70.220",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.804,
+      "download_seconds": 4.883,
+      "speed_mbps": 6.55
+    },
+    {
+      "ip": "31.77.158.172",
+      "scheme": "vless",
+      "country": "FI",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.787,
+      "download_seconds": 4.904,
+      "speed_mbps": 6.53
+    },
+    {
+      "ip": "45.43.153.33",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.649,
+      "download_seconds": 4.981,
+      "speed_mbps": 6.42
+    },
+    {
+      "ip": "196.196.148.63",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.893,
+      "download_seconds": 5.363,
+      "speed_mbps": 5.97
+    },
+    {
+      "ip": "208.69.78.60",
+      "scheme": "trojan",
+      "country": "CH",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 9.544,
+      "download_seconds": 5.456,
+      "speed_mbps": 5.87
+    },
+    {
+      "ip": "208.69.78.33",
+      "scheme": "trojan",
+      "country": "CH",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.909,
+      "download_seconds": 5.658,
+      "speed_mbps": 5.66
+    },
+    {
+      "ip": "37.235.247.81",
+      "scheme": "vless",
+      "country": "FR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 8.525,
+      "download_seconds": 5.653,
+      "speed_mbps": 5.66
+    },
+    {
+      "ip": "164.37.224.246",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.114,
+      "download_seconds": 6.148,
+      "speed_mbps": 5.2
+    },
+    {
+      "ip": "208.69.78.158",
+      "scheme": "trojan",
+      "country": "CH",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 9.094,
+      "download_seconds": 6.345,
+      "speed_mbps": 5.04
+    },
+    {
+      "ip": "208.69.78.29",
+      "scheme": "trojan",
+      "country": "CH",
+      "downloaded_bytes": 4000000,
       "ttfb_seconds": 1.949,
-      "download_seconds": 22.16,
-      "speed_mbps": 1.44
+      "download_seconds": 6.471,
+      "speed_mbps": 4.95
+    },
+    {
+      "ip": "146.103.118.189",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.377,
+      "download_seconds": 6.505,
+      "speed_mbps": 4.92
+    },
+    {
+      "ip": "193.111.204.84",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 5.535,
+      "download_seconds": 6.557,
+      "speed_mbps": 4.88
+    },
+    {
+      "ip": "196.245.52.183",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.586,
+      "download_seconds": 7.961,
+      "speed_mbps": 4.02
+    },
+    {
+      "ip": "95.143.196.97",
+      "scheme": "hysteria2",
+      "country": "SE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.593,
+      "download_seconds": 8.493,
+      "speed_mbps": 3.77
+    },
+    {
+      "ip": "195.206.235.48",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.876,
+      "download_seconds": 8.498,
+      "speed_mbps": 3.77
+    },
+    {
+      "ip": "79.182.70.232",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.664,
+      "download_seconds": 8.503,
+      "speed_mbps": 3.76
+    },
+    {
+      "ip": "144.31.167.154",
+      "scheme": "vless",
+      "country": "DE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.627,
+      "download_seconds": 8.831,
+      "speed_mbps": 3.62
+    },
+    {
+      "ip": "31.129.56.229",
+      "scheme": "vless",
+      "country": "IT",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 10.255,
+      "download_seconds": 9.275,
+      "speed_mbps": 3.45
+    },
+    {
+      "ip": "95.143.196.32",
+      "scheme": "trojan",
+      "country": "SE",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.198,
+      "download_seconds": 9.414,
+      "speed_mbps": 3.4
+    },
+    {
+      "ip": "79.182.39.131",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.567,
+      "download_seconds": 9.877,
+      "speed_mbps": 3.24
+    },
+    {
+      "ip": "195.206.235.110",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.974,
+      "download_seconds": 10.635,
+      "speed_mbps": 3.01
+    },
+    {
+      "ip": "132.243.66.87",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.733,
+      "download_seconds": 10.901,
+      "speed_mbps": 2.94
+    },
+    {
+      "ip": "79.182.70.190",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.233,
+      "download_seconds": 11.762,
+      "speed_mbps": 2.72
+    },
+    {
+      "ip": "196.196.149.80",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 3.052,
+      "download_seconds": 12.776,
+      "speed_mbps": 2.5
+    },
+    {
+      "ip": "13.143.239.6",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.08,
+      "download_seconds": 13.134,
+      "speed_mbps": 2.44
+    },
+    {
+      "ip": "45.192.193.54",
+      "scheme": "vless",
+      "country": "HK",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.876,
+      "download_seconds": 13.707,
+      "speed_mbps": 2.33
+    },
+    {
+      "ip": "194.5.195.55",
+      "scheme": "vless",
+      "country": "FR",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 11.748,
+      "download_seconds": 16.094,
+      "speed_mbps": 1.99
+    },
+    {
+      "ip": "196.245.153.111",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 4.169,
+      "download_seconds": 16.874,
+      "speed_mbps": 1.9
+    },
+    {
+      "ip": "196.196.149.81",
+      "scheme": "vless",
+      "country": "ES",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.045,
+      "download_seconds": 17.094,
+      "speed_mbps": 1.87
+    },
+    {
+      "ip": "9.247.54.228",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.115,
+      "download_seconds": 17.176,
+      "speed_mbps": 1.86
+    },
+    {
+      "ip": "201.8.64.226",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.491,
+      "download_seconds": 17.543,
+      "speed_mbps": 1.82
+    },
+    {
+      "ip": "132.243.67.224",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.446,
+      "download_seconds": 17.883,
+      "speed_mbps": 1.79
+    },
+    {
+      "ip": "195.206.235.74",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.308,
+      "download_seconds": 18.067,
+      "speed_mbps": 1.77
+    },
+    {
+      "ip": "150.251.143.47",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 0.938,
+      "download_seconds": 19.583,
+      "speed_mbps": 1.63
+    },
+    {
+      "ip": "13.143.232.161",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 2.408,
+      "download_seconds": 19.819,
+      "speed_mbps": 1.61
+    },
+    {
+      "ip": "93.123.85.103",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 4000000,
+      "ttfb_seconds": 1.48,
+      "download_seconds": 21.109,
+      "speed_mbps": 1.52
     },
     {
       "ip": "146.19.254.171",
       "scheme": "vless",
       "country": "NL",
-      "downloaded_bytes": 4000000,
-      "ttfb_seconds": 0.434,
-      "download_seconds": 27.878,
-      "speed_mbps": 1.15
+      "downloaded_bytes": 3866608,
+      "ttfb_seconds": 8.829,
+      "download_seconds": 21.171,
+      "speed_mbps": 1.46
     },
     {
-      "ip": "34.80.15.95",
-      "scheme": "trojan",
+      "ip": "132.243.66.220",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 3424240,
+      "ttfb_seconds": 1.894,
+      "download_seconds": 28.107,
+      "speed_mbps": 0.97
+    },
+    {
+      "ip": "85.237.207.221",
+      "scheme": "vless",
       "country": "TW",
-      "downloaded_bytes": 3964912,
-      "ttfb_seconds": 0.826,
-      "download_seconds": 29.175,
-      "speed_mbps": 1.09
+      "downloaded_bytes": 3538928,
+      "ttfb_seconds": 0.533,
+      "download_seconds": 29.47,
+      "speed_mbps": 0.96
     },
     {
-      "ip": "104.25.0.1",
-      "scheme": "vmess",
-      "country": "JP",
+      "ip": "185.14.29.29",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 3506160,
+      "ttfb_seconds": 0.588,
+      "download_seconds": 29.412,
+      "speed_mbps": 0.95
+    },
+    {
+      "ip": "143.246.41.117",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 3375088,
+      "ttfb_seconds": 0.802,
+      "download_seconds": 29.199,
+      "speed_mbps": 0.92
+    },
+    {
+      "ip": "164.37.224.245",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 3194864,
+      "ttfb_seconds": 1.942,
+      "download_seconds": 28.059,
+      "speed_mbps": 0.91
+    },
+    {
+      "ip": "79.182.70.81",
+      "scheme": "vless",
+      "country": "NL",
       "downloaded_bytes": 3096560,
-      "ttfb_seconds": 5.165,
-      "download_seconds": 24.836,
-      "speed_mbps": 1.0
+      "ttfb_seconds": 1.782,
+      "download_seconds": 28.218,
+      "speed_mbps": 0.88
     },
     {
-      "ip": "45.38.143.210",
+      "ip": "48.103.231.82",
       "scheme": "vless",
-      "country": "LV",
-      "downloaded_bytes": 2310128,
-      "ttfb_seconds": 5.841,
-      "download_seconds": 24.94,
-      "speed_mbps": 0.74
+      "country": "NL",
+      "downloaded_bytes": 2801648,
+      "ttfb_seconds": 1.333,
+      "download_seconds": 28.668,
+      "speed_mbps": 0.78
     },
     {
-      "ip": "151.241.128.46",
+      "ip": "104.21.94.203",
       "scheme": "vless",
-      "country": "JP",
-      "downloaded_bytes": 2539504,
-      "ttfb_seconds": 1.698,
-      "download_seconds": 28.303,
-      "speed_mbps": 0.72
+      "country": "NL",
+      "downloaded_bytes": 2473968,
+      "ttfb_seconds": 0.887,
+      "download_seconds": 29.113,
+      "speed_mbps": 0.68
     },
     {
-      "ip": "162.159.130.234",
+      "ip": "201.8.71.230",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 1933312,
+      "ttfb_seconds": 1.073,
+      "download_seconds": 28.928,
+      "speed_mbps": 0.53
+    },
+    {
+      "ip": "164.37.224.238",
+      "scheme": "vless",
+      "country": "NL",
+      "downloaded_bytes": 1736704,
+      "ttfb_seconds": 1.189,
+      "download_seconds": 28.813,
+      "speed_mbps": 0.48
+    },
+    {
+      "ip": "45.131.153.56",
       "scheme": "vmess",
-      "country": "JP",
-      "downloaded_bytes": 1835008,
-      "ttfb_seconds": 6.312,
-      "download_seconds": 23.689,
-      "speed_mbps": 0.62
+      "country": "DE",
+      "downloaded_bytes": 1228800,
+      "ttfb_seconds": 1.823,
+      "download_seconds": 28.179,
+      "speed_mbps": 0.35
     },
     {
-      "ip": "152.234.239.170",
+      "ip": "153.52.85.184",
       "scheme": "vless",
-      "country": "LT",
-      "downloaded_bytes": 1556480,
-      "ttfb_seconds": 3.416,
-      "download_seconds": 26.584,
-      "speed_mbps": 0.47
-    },
-    {
-      "ip": "172.67.164.184",
-      "scheme": "vmess",
-      "country": "JP",
-      "downloaded_bytes": 1179648,
-      "ttfb_seconds": 4.783,
-      "download_seconds": 25.218,
-      "speed_mbps": 0.37
+      "country": "NL",
+      "downloaded_bytes": 1048576,
+      "ttfb_seconds": 1.101,
+      "download_seconds": 28.9,
+      "speed_mbps": 0.29
     }
   ]
 }
