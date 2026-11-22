@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-11-22T06:05:37+00:00",
+  "checked_at_utc": "2026-11-22T07:13:56+00:00",
   "sources": [
     "https://raw.githubusercontent.com/nikita29a/FreeProxyList/refs/heads/main/mirror/1.txt",
     "https://raw.githubusercontent.com/barry-far/V2ray-Config/refs/heads/main/All_Configs_base64_Sub.txt"
@@ -12,95 +12,95 @@
   "singbox_used": true,
   "singbox_required_for_lists": true,
   "singbox_broken": false,
-  "total_configs": 15128,
-  "source_bytes_downloaded": 5952687,
+  "total_configs": 15127,
+  "source_bytes_downloaded": 5952689,
   "source_bytes_limit_per_url": 67108864,
   "source_bytes_limit_total": 268435456,
   "max_configs_limit": 250000,
-  "alive_or_unchecked": 3622,
+  "alive_or_unchecked": 3691,
   "by_method": {
-    "verified": 2544,
-    "tcp_only": 1006,
+    "verified": 2614,
+    "tcp_only": 1004,
     "unchecked": 51,
-    "tcp": 21
+    "tcp": 22
   },
   "xray_by_protocol": {
     "http": {
-      "dead": 625,
-      "ok": 120
+      "ok": 198,
+      "dead": 788
     },
     "https": {
       "refused": 22
     },
     "hysteria2": {
-      "dead": 132,
-      "refused": 130,
-      "ok": 25
+      "dead": 131,
+      "refused": 131,
+      "ok": 24
     },
     "socks5": {
-      "ok": 69,
-      "dead": 85
+      "ok": 80,
+      "dead": 84
     },
     "ss": {
-      "ok": 491,
-      "dead": 109,
+      "ok": 484,
+      "dead": 107,
       "refused": 51
     },
     "trojan": {
-      "refused": 65,
-      "ok": 234,
-      "dead": 162
+      "refused": 69,
+      "ok": 211,
+      "dead": 181
     },
     "vless": {
-      "ok": 962,
-      "dead": 2234,
-      "refused": 431
+      "dead": 2285,
+      "ok": 908,
+      "refused": 428
     },
     "vmess": {
-      "ok": 227,
-      "dead": 163,
+      "dead": 169,
+      "ok": 223,
       "refused": 4
     }
   },
   "singbox_by_protocol": {
     "http": {
-      "dead": 623,
-      "ok": 122
+      "dead": 801,
+      "ok": 185
     },
     "https": {
       "dead": 1,
       "ok": 21
     },
     "hysteria2": {
-      "dead": 174,
-      "ok": 113
+      "dead": 176,
+      "ok": 110
     },
     "hysteria": {
       "ok": 9,
       "dead": 2
     },
     "socks5": {
-      "dead": 86,
-      "ok": 68
+      "ok": 75,
+      "dead": 89
     },
     "ss": {
-      "ok": 531,
-      "dead": 114,
+      "ok": 506,
+      "dead": 130,
       "refused": 6
     },
     "trojan": {
-      "dead": 181,
-      "ok": 272,
-      "refused": 4
+      "refused": 4,
+      "dead": 233,
+      "ok": 220
     },
     "vless": {
-      "ok": 665,
-      "dead": 2313,
-      "refused": 80
+      "dead": 2302,
+      "ok": 668,
+      "refused": 87
     },
     "vmess": {
-      "ok": 197,
-      "dead": 182
+      "dead": 211,
+      "ok": 169
     },
     "tuic": {
       "ok": 2,
@@ -114,63 +114,63 @@
     "singbox": []
   },
   "files": {
-    "all_txt": 428,
-    "white_checked_txt": 102,
-    "xray_checked_txt": 503,
-    "singbox_checked_txt": 448,
+    "all_txt": 371,
+    "white_checked_txt": 93,
+    "xray_checked_txt": 492,
+    "singbox_checked_txt": 438,
     "all_txt_parts": [
-      224
+      208
     ],
     "xray_checked_parts": [
-      503,
-      379
+      492,
+      364
     ],
     "singbox_checked_parts": [
-      448,
-      313
+      438,
+      272
     ],
-    "ru_servers_txt": 164,
+    "ru_servers_txt": 163,
     "by_protocol": {
-      "http": 77,
+      "http": 127,
       "https": 0,
       "hysteria": 4,
-      "hysteria2": 78,
-      "socks5": 65,
-      "ss": 157,
+      "hysteria2": 76,
+      "socks5": 72,
+      "ss": 153,
       "ssr": 1,
-      "trojan": 49,
+      "trojan": 36,
       "tuic": 1,
-      "vless": 206,
-      "vmess": 70
+      "vless": 195,
+      "vmess": 52
     },
     "us_ca_share": {
       "all_txt": null,
-      "white_checked_txt": 0.0588,
-      "xray_checked_txt": 0.1551,
-      "singbox_checked_txt": 0.1696,
+      "white_checked_txt": 0.0645,
+      "xray_checked_txt": 0.1565,
+      "singbox_checked_txt": 0.1735,
       "by_protocol": {
-        "http": 0.1169,
+        "http": 0.0709,
         "https": 0,
         "hysteria": 0.25,
-        "hysteria2": 0.1795,
-        "socks5": 0.1692,
-        "ss": 0.1783,
+        "hysteria2": 0.1579,
+        "socks5": 0.1389,
+        "ss": 0.183,
         "ssr": 0.0,
-        "trojan": 0.2449,
+        "trojan": 0.25,
         "tuic": 0.0,
-        "vless": 0.0874,
-        "vmess": 0.2429
+        "vless": 0.0923,
+        "vmess": 0.25
       }
     },
-    "igareck_black_list": 195,
-    "igareck_white_cidr": 19
+    "igareck_black_list": 146,
+    "igareck_white_cidr": 23
   },
   "all_txt_europe_share": null,
   "all_txt_by_protocol": {
-    "trojan": 48,
-    "vmess": 61,
-    "vless": 250,
-    "hysteria2": 67,
+    "hysteria2": 65,
+    "vmess": 51,
+    "trojan": 34,
+    "vless": 219,
     "hysteria": 1,
     "tuic": 1
   },
@@ -220,7 +220,7 @@
     "hysteria2_share": 0.2
   },
   "geo": {
-    "unique_ips": 2515,
+    "unique_ips": 2605,
     "sources": [
       "cf",
       "ipinfo",
@@ -229,37 +229,37 @@
       "geojs"
     ],
     "min_agree": 2,
-    "disputed_sources_total": 572,
+    "disputed_sources_total": 543,
     "geo_strict": true,
-    "unanimous": 3313,
-    "exit_ip_differs_from_server_ip": 1299,
-    "labels_filled_from_ip": 1676,
-    "labels_corrected": 564,
-    "majority": 309,
-    "disputed": 1046,
+    "unanimous": 3407,
+    "exit_ip_differs_from_server_ip": 1319,
+    "labels_corrected": 549,
+    "labels_filled_from_ip": 1633,
+    "majority": 284,
+    "disputed": 1043,
     "no_data": 2
   },
-  "tests_dropped_by_ip_limit": 3604,
+  "tests_dropped_by_ip_limit": 3558,
   "speed_filter_active": false,
   "ru_stage": {
-    "ru_servers_after_geo": 213,
+    "ru_servers_after_geo": 212,
     "by_method": {
-      "tcp_only": 192,
+      "tcp_only": 191,
       "verified": 21
     },
     "by_protocol": {
-      "http": 10,
+      "http": 11,
       "hysteria2": 3,
       "socks5": 8,
-      "vless": 192
+      "vless": 190
     },
-    "in_file": 164
+    "in_file": 163
   },
   "seconds": {
-    "tcp": 177,
-    "cores": 906,
-    "geo": 9,
-    "total": 1091
+    "tcp": 182,
+    "cores": 1104,
+    "geo": 5,
+    "total": 1291
   },
   "test_urls": [
     "http://www.gstatic.com/generate_204",
@@ -272,10 +272,10 @@
     "singbox_checked": false,
     "dns_resolution_only": true,
     "max_configs_per_ip": 1,
-    "black_list_unique_ips": 195,
-    "white_cidr_unique_ips": 19,
-    "black_list_configs": 195,
-    "white_cidr_configs": 19,
-    "added_to_all_txt": 204
+    "black_list_unique_ips": 146,
+    "white_cidr_unique_ips": 23,
+    "black_list_configs": 146,
+    "white_cidr_configs": 23,
+    "added_to_all_txt": 163
   }
 }
