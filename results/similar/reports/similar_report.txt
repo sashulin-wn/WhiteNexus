@@ -5,17 +5,17 @@ Final: 450
 Statistics:
 dns_failed_or_over_limit: 67
 dns_hosts_queued: 337
-dns_ok: 4476
-dropped_per_family: 968
-dropped_per_ip: 1245
-dropped_per_pbk: 226
+dns_ok: 4588
+dropped_per_family: 1005
+dropped_per_ip: 1278
+dropped_per_pbk: 230
 final_count: 450
-final_country_distribution: {'AE': 5, 'AM': 3, 'AT': 7, 'BG': 2, 'BR': 1, 'BY': 2, 'CH': 6, 'CY': 2, 'CZ': 2, 'DE': 85, 'EE': 8, 'ES': 5, 'FI': 13, 'FR': 17, 'GB': 17, 'HK': 10, 'HU': 1, 'ID': 2, 'IE': 4, 'IR': 2, 'IT': 2, 'JP': 9, 'KZ': 3, 'LT': 6, 'LV': 6, 'NL': 73, 'PL': 20, 'RO': 11, 'RS': 10, 'RU': 91, 'SE': 13, 'SG': 3, 'SI': 7, 'TR': 2}
+final_country_distribution: {'AE': 5, 'AM': 3, 'AT': 9, 'BG': 2, 'BR': 1, 'BY': 2, 'CH': 6, 'CY': 2, 'CZ': 2, 'DE': 82, 'EE': 9, 'ES': 6, 'FI': 13, 'FR': 17, 'GB': 17, 'HK': 10, 'HU': 1, 'ID': 2, 'IE': 4, 'IR': 2, 'IT': 2, 'JP': 9, 'KZ': 3, 'LT': 6, 'LV': 7, 'NL': 71, 'PL': 19, 'RO': 11, 'RS': 10, 'RU': 90, 'SC': 2, 'SE': 12, 'SG': 3, 'SI': 7, 'TR': 2, 'ZA': 1}
 final_unknown_geo: 0
 final_us_ca_plus_unknown_share: 0.0
 final_us_ca_share: 0.0
-matched_before_dns: 4543
-north_america_dropped_by_25pct_cap: 257
+matched_before_dns: 4655
+north_america_dropped_by_25pct_cap: 290
 north_america_quota_includes_unknown_geo: True
 pool_exactly_in_working: 210
 pool_lines: 107825
@@ -26,26 +26,26 @@ profile_pbk: [('QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI', 21), ('NaCZ-sS4poE
 profile_ports: [(443, 222), (8443, 23), (61374, 16), (25191, 6), (445, 4), (8445, 4), (9096, 2), (25700, 2), (23444, 2), (8444, 2)]
 profile_sni: [('www.windowsmsidownloads.com', 15), ('qq.utiltools.site', 11), ('passport.yandex.ru', 10), ('accounts.fastly.com', 10), ('yoy-api.bachidze.com', 9), ('cz.pythonmakemigreat.wiki', 8), ('www.windowssearchtools.com', 7), ('a8687er.se2.h1clayd.click', 6), ('4935e4t.de25.h1clayd.click', 6), ('pl-b1.golangwikito.cfd', 6), ('tickets.betust.net', 6), ('www.ubuntuupdates.com', 6), ('assets.study.golangwikito.cfd', 5), ('mbr.rkn-pediki.site', 5), ('prime.jarbook.net', 5)]
 profile_transports: [('tcp', 192), ('xhttp', 64), ('grpc', 25), ('ws', 21)]
-similar_after_dns: 4476
+similar_after_dns: 4588
 singbox_available: True
-singbox_ok: 309
-singbox_skipped_unsupported_transport: 623
-singbox_verified: 35
+singbox_ok: 343
+singbox_skipped_unsupported_transport: 621
+singbox_verified: 33
 skipped_after_tcp_limit: 0
 speed_probe_limit_per_core: 300
-tcp_batch: 4476
-tcp_failed: 1123
-tcp_ok: 3353
-tcp_recovered_on_retry: 19
-verified: 76
+tcp_batch: 4588
+tcp_failed: 1132
+tcp_ok: 3456
+tcp_recovered_on_retry: 16
+verified: 73
 verified_by_both: 27
 working_lines: 438
 working_profile_counts: {'servers': 372, 'vless': 302, 'vless_reality': 257, 'vmess': 70, 'vless_tls': 45, 'working_hosts_resolved': 84, 'working_hosts_dns_total': 91}
 working_valid: 372
 xray_available: True
-xray_ok: 612
+xray_ok: 601
 xray_skipped_unsupported_transport: 53
-xray_verified: 68
+xray_verified: 67
 
 Top matches:
 372.5 [TCP only] 🇬🇧 United Kingdom, Slough — pbk=oAX7soFKfN3xURgCD26trmjeF-e-(+88.8), sid=77a8c8c8(+22.2), uuid=95d0e214-eab0-4701-93ed-fea4(+77.4), host=prime.jarbook.net(+59.2)
