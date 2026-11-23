@@ -5,17 +5,17 @@ Final: 450
 Statistics:
 dns_failed_or_over_limit: 67
 dns_hosts_queued: 337
-dns_ok: 4588
-dropped_per_family: 1005
-dropped_per_ip: 1278
-dropped_per_pbk: 230
+dns_ok: 4523
+dropped_per_family: 976
+dropped_per_ip: 1235
+dropped_per_pbk: 225
 final_count: 450
-final_country_distribution: {'AE': 5, 'AM': 3, 'AT': 9, 'BG': 2, 'BR': 1, 'BY': 2, 'CH': 6, 'CY': 2, 'CZ': 2, 'DE': 82, 'EE': 9, 'ES': 6, 'FI': 13, 'FR': 17, 'GB': 17, 'HK': 10, 'HU': 1, 'ID': 2, 'IE': 4, 'IR': 2, 'IT': 2, 'JP': 9, 'KZ': 3, 'LT': 6, 'LV': 7, 'NL': 71, 'PL': 19, 'RO': 11, 'RS': 10, 'RU': 90, 'SC': 2, 'SE': 12, 'SG': 3, 'SI': 7, 'TR': 2, 'ZA': 1}
+final_country_distribution: {'AE': 5, 'AM': 3, 'AT': 7, 'BG': 2, 'BR': 1, 'CH': 5, 'CY': 2, 'CZ': 2, 'DE': 84, 'EE': 9, 'ES': 5, 'FI': 13, 'FR': 17, 'GB': 17, 'HK': 10, 'HU': 1, 'ID': 2, 'IE': 4, 'IR': 2, 'IT': 2, 'JP': 11, 'KZ': 3, 'LT': 6, 'LV': 7, 'NL': 70, 'PL': 21, 'RO': 11, 'RS': 10, 'RU': 91, 'SC': 2, 'SE': 12, 'SG': 3, 'SI': 7, 'TR': 2, 'ZA': 1}
 final_unknown_geo: 0
 final_us_ca_plus_unknown_share: 0.0
 final_us_ca_share: 0.0
-matched_before_dns: 4655
-north_america_dropped_by_25pct_cap: 290
+matched_before_dns: 4590
+north_america_dropped_by_25pct_cap: 262
 north_america_quota_includes_unknown_geo: True
 pool_exactly_in_working: 210
 pool_lines: 107825
@@ -26,26 +26,26 @@ profile_pbk: [('QrNs0ew7snHqLfpVXS9RAhlRzgAzzGZK9fXmDcx9xHI', 21), ('NaCZ-sS4poE
 profile_ports: [(443, 222), (8443, 23), (61374, 16), (25191, 6), (445, 4), (8445, 4), (9096, 2), (25700, 2), (23444, 2), (8444, 2)]
 profile_sni: [('www.windowsmsidownloads.com', 15), ('qq.utiltools.site', 11), ('passport.yandex.ru', 10), ('accounts.fastly.com', 10), ('yoy-api.bachidze.com', 9), ('cz.pythonmakemigreat.wiki', 8), ('www.windowssearchtools.com', 7), ('a8687er.se2.h1clayd.click', 6), ('4935e4t.de25.h1clayd.click', 6), ('pl-b1.golangwikito.cfd', 6), ('tickets.betust.net', 6), ('www.ubuntuupdates.com', 6), ('assets.study.golangwikito.cfd', 5), ('mbr.rkn-pediki.site', 5), ('prime.jarbook.net', 5)]
 profile_transports: [('tcp', 192), ('xhttp', 64), ('grpc', 25), ('ws', 21)]
-similar_after_dns: 4588
+similar_after_dns: 4523
 singbox_available: True
-singbox_ok: 343
-singbox_skipped_unsupported_transport: 621
-singbox_verified: 33
+singbox_ok: 330
+singbox_skipped_unsupported_transport: 619
+singbox_verified: 32
 skipped_after_tcp_limit: 0
 speed_probe_limit_per_core: 300
-tcp_batch: 4588
-tcp_failed: 1132
-tcp_ok: 3456
-tcp_recovered_on_retry: 16
-verified: 73
-verified_by_both: 27
+tcp_batch: 4523
+tcp_failed: 1167
+tcp_ok: 3356
+tcp_recovered_on_retry: 15
+verified: 75
+verified_by_both: 26
 working_lines: 438
 working_profile_counts: {'servers': 372, 'vless': 302, 'vless_reality': 257, 'vmess': 70, 'vless_tls': 45, 'working_hosts_resolved': 84, 'working_hosts_dns_total': 91}
 working_valid: 372
 xray_available: True
-xray_ok: 601
+xray_ok: 607
 xray_skipped_unsupported_transport: 53
-xray_verified: 67
+xray_verified: 69
 
 Top matches:
 372.5 [TCP only] 🇬🇧 United Kingdom, Slough — pbk=oAX7soFKfN3xURgCD26trmjeF-e-(+88.8), sid=77a8c8c8(+22.2), uuid=95d0e214-eab0-4701-93ed-fea4(+77.4), host=prime.jarbook.net(+59.2)
@@ -61,8 +61,8 @@ Top matches:
 306.3 [TCP only] 🇳🇱 The Netherlands, Eygelshoven — pbk=9UG9zvrDpiPgY_J0dvB-n10ygEw3(+74.4), sid=e06e30590f288e0f(+18.6), uuid=3a7849e7-8ef6-492f-860d-54dd(+66.6), host=191.217.217.81(+40.0)
 306.2 [TCP only] 🇳🇱 The Netherlands, Eygelshoven — pbk=9UG9zvrDpiPgY_J0dvB-n10ygEw3(+74.4), sid=e06e30590f288e0f(+18.6), uuid=3a7849e7-8ef6-492f-860d-54dd(+66.6), host=nl6.soshelper.space(+40.0)
 299.1 [TCP only] 🇱🇹 Lithuania, Šiauliai — pbk=zZjrHRzULoXKVccVdPqtrtXLEUPJ(+67.2), sid=3e137406(+16.8), uuid=95d0e214-eab0-4701-93ed-fea4(+77.4), host=admin.betust.net(+40.0)
-280.1 [Xray] 🇸🇪 Sweden, Stockholm — pbk=_Cb2FzFDVi9blwCb_5V0NZue6wt-(+80.0), sid=55328e423218ee9b(+20.0), uuid=62995b2a-8f82-41f8-ac80-dfdf(+22.0), host=se2.h1cloud.net(+64.0)
-280.1 [Xray] 🇸🇪 Sweden, Stockholm — pbk=_Cb2FzFDVi9blwCb_5V0NZue6wt-(+80.0), sid=55328e423218ee9b(+20.0), uuid=62995b2a-8f82-41f8-ac80-dfdf(+22.0), host=se2.h1cloud.net(+64.0)
+279.9 [Xray] 🇸🇪 Sweden, Stockholm — pbk=_Cb2FzFDVi9blwCb_5V0NZue6wt-(+80.0), sid=55328e423218ee9b(+20.0), uuid=62995b2a-8f82-41f8-ac80-dfdf(+22.0), host=se2.h1cloud.net(+64.0)
+279.9 [Xray] 🇸🇪 Sweden, Stockholm — pbk=_Cb2FzFDVi9blwCb_5V0NZue6wt-(+80.0), sid=55328e423218ee9b(+20.0), uuid=62995b2a-8f82-41f8-ac80-dfdf(+22.0), host=se2.h1cloud.net(+64.0)
 276.6 [TCP only] 🇸🇪 Sweden, Stockholm — pbk=gJoMHh97teLxW92Z_3DI8qdSulqB(+67.2), sid=d889ac17(+16.8), uuid=2232d904-8e6a-4202-8240-6efd(+46.2), host=main.jarbook.net(+40.0)
 275.6 [Xray] 🇺🇸 United States, Atlanta — pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhH(+103.2), sid=027af64166562b09(+25.8), uuid=ccb8ff48-3934-4250-b4ec-bb76(+77.4), fam=fox-lisa.ru(+51.6)
 275.6 [Xray] 🇺🇸 United States, Atlanta — pbk=NaCZ-sS4poEbFwKmD7ePAVyc5OhH(+103.2), sid=027af64166562b09(+25.8), uuid=ccb8ff48-3934-4250-b4ec-bb76(+77.4), fam=fox-lisa.ru(+51.6)
@@ -84,7 +84,7 @@ Top matches:
 256.0 [Xray] 🇳🇱 The Netherlands, Amsterdam — pbk=yyXZsa238GRW90w5DweXAdRTtVSu(+60.0), sid=9e5a335de26d1f5a(+15.0), uuid=727a9178-d7f0-4142-8205-b0d1(+50.4), host=138.124.245.102(+40.0)
 253.9 [Xray,sing-box] 🇫🇷 France, Roubaix — pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZ(+21.3), uuid=b9bfa54d-bc44-4592-a6d6-89a9(+61.2), host=edge.bookmai.com(+54.4), fam=bookmai.com(+40.8)
 253.9 [Xray,sing-box] 🇫🇷 France, Roubaix — pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZ(+21.3), uuid=b9bfa54d-bc44-4592-a6d6-89a9(+61.2), host=edge.bookmai.com(+54.4), fam=bookmai.com(+40.8)
-250.7 [Xray] 🇩🇪 Germany, Frankfurt am Main — pbk=_3mkK8SY6YVqws73SUVPKL77tzxD(+60.0), sid=d05a120d3506d2cc(+15.0), uuid=a71d6c6d-c95e-4ec1-a892-22e2(+45.0), host=178.248.236.229(+40.0)
-250.7 [Xray] 🇩🇪 Germany, Frankfurt am Main — pbk=_3mkK8SY6YVqws73SUVPKL77tzxD(+60.0), sid=d05a120d3506d2cc(+15.0), uuid=a71d6c6d-c95e-4ec1-a892-22e2(+45.0), host=178.248.236.229(+40.0)
 250.7 [Xray] 🇯🇵 Japan, Tokyo — pbk=ejx56dFtS4LK_Th6HSLFFdm7v7zq(+60.0), sid=bd6f67b6b2152b45(+15.0), uuid=7072eeba-94fd-4fb3-92f2-a450(+45.0), host=31.76.91.98(+40.0)
 250.7 [Xray] 🇯🇵 Japan, Tokyo — pbk=ejx56dFtS4LK_Th6HSLFFdm7v7zq(+60.0), sid=bd6f67b6b2152b45(+15.0), uuid=7072eeba-94fd-4fb3-92f2-a450(+45.0), host=31.76.91.98(+40.0)
+250.7 [Xray] 🇩🇪 Germany, Frankfurt am Main — pbk=_3mkK8SY6YVqws73SUVPKL77tzxD(+60.0), sid=d05a120d3506d2cc(+15.0), uuid=a71d6c6d-c95e-4ec1-a892-22e2(+45.0), host=178.248.236.229(+40.0)
+250.7 [Xray] 🇩🇪 Germany, Frankfurt am Main — pbk=_3mkK8SY6YVqws73SUVPKL77tzxD(+60.0), sid=d05a120d3506d2cc(+15.0), uuid=a71d6c6d-c95e-4ec1-a892-22e2(+45.0), host=178.248.236.229(+40.0)
