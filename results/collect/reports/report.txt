@@ -1,52 +1,52 @@
 COLLECT REPORT
 
-Result servers: 146
+Result servers: 137
 TCP-only candidates: 600
 RU IP with no TCP from runner: 300
-Pool links: 88259
+Pool links: 102787
 
 Statistics:
 candidate_north_america_dropped_by_25pct_cap: 0
 candidates_ru_ip_notcp: 300
 candidates_tcp_only: 600
-dns_failed_or_non_global: 103
-dns_ok: 3947
-final: 146
-final_country_distribution: {'AE': 2, 'BR': 2, 'BY': 4, 'CZ': 2, 'DE': 67, 'EE': 1, 'FI': 4, 'FR': 6, 'GB': 2, 'LV': 2, 'NL': 48, 'PL': 2, 'SG': 2, 'US': 2}
-final_us_ca_plus_unknown_share: 0.0137
-final_us_ca_share: 0.0137
-github_code_files_seen: 100
+dns_failed_or_non_global: 98
+dns_ok: 3569
+final: 137
+final_country_distribution: {'AE': 2, 'BR': 2, 'BY': 4, 'DE': 63, 'EE': 1, 'FI': 3, 'FR': 5, 'GB': 2, 'LV': 2, 'NL': 47, 'PL': 2, 'SG': 2, 'US': 2}
+final_us_ca_plus_unknown_share: 0.0146
+final_us_ca_share: 0.0146
+github_code_files_seen: 600
 github_code_search_errors: 7
-github_code_search_requests: 8
+github_code_search_requests: 13
 github_repos_discovered: 120
 github_repos_seen: 200
 links_from_files: 250000
-links_rejected_or_non_whitelist: 82151
+links_rejected_or_non_whitelist: 97463
 links_total_before_dedup: 250000
 north_america_dropped_by_25pct_cap: 0
 north_america_quota_includes_unknown_geo: True
-pool_links: 88259
-pool_links_saved: 88259
-result_country_distribution: {'NL': 48, 'DE': 67, 'FR': 6, 'LV': 2, 'SG': 2, 'FI': 4, 'GB': 2, 'BY': 4, 'CZ': 2, 'PL': 2, 'EE': 1, 'BR': 2, 'AE': 2, 'US': 2}
+pool_links: 102787
+pool_links_saved: 102787
+result_country_distribution: {'NL': 47, 'DE': 63, 'FR': 5, 'FI': 3, 'LV': 2, 'SG': 2, 'GB': 2, 'BY': 4, 'PL': 2, 'BR': 2, 'EE': 1, 'AE': 2, 'US': 2}
 singbox_available: True
-singbox_ok: 303
-singbox_skipped_unsupported_transport: 198
-singbox_verified_in_final: 87
-source_files_downloaded: 2921
-source_urls_to_download: 3233
+singbox_ok: 266
+singbox_skipped_unsupported_transport: 192
+singbox_verified_in_final: 79
+source_files_downloaded: 2209
+source_urls_to_download: 3605
 speed_probe_limit_per_core: 300
-tcp_no_answer_from_runner: 2211
-tcp_ok: 1736
-tcp_recovered_on_retry: 9
+tcp_no_answer_from_runner: 1851
+tcp_ok: 1718
+tcp_recovered_on_retry: 11
 telegram_channels: 0
-tier_distribution: {'3': 1578, '1': 2359, '2': 113}
-transport_distribution: {'tcp': 3339, 'grpc': 418, 'xhttp': 261, 'http': 27, 'tcp#3🔥@oneclickvpnkeys': 1, 'tcp#3🔥@oneclickvpnkeysvless://607801ac-dbdd-4938-a167-129015d9978e@91.192.81.214:443?encryption=none': 1, 'tcp#🎡85@oneclickvpnkeys': 1, 'grpc#2🎗️@oneclickvpnkeys': 1, 'grpc#3🎗️@oneclickvpnkeys': 1}
-unique_reality_whitelist_candidates: 4050
-unique_source_urls: 3233
+tier_distribution: {'3': 1489, '1': 2070, '2': 108}
+transport_distribution: {'tcp': 2987, 'xhttp': 256, 'grpc': 393, 'http': 27, 'tcp#3🔥@oneclickvpnkeys': 1, 'tcp#3🔥@oneclickvpnkeysvless://607801ac-dbdd-4938-a167-129015d9978e@91.192.81.214:443?encryption=none': 1, 'tcp#🎡85@oneclickvpnkeys': 1, 'grpc#2🎗️@oneclickvpnkeys': 1}
+unique_reality_whitelist_candidates: 3667
+unique_source_urls: 3605
 unknown_geo_in_final: 0
-verified_by_both_in_final: 84
-verified_dropped_per_ip: 378
+verified_by_both_in_final: 69
+verified_dropped_per_ip: 359
 xray_available: True
-xray_ok: 482
+xray_ok: 441
 xray_skipped_unsupported_transport: 14
-xray_verified_in_final: 143
+xray_verified_in_final: 127
