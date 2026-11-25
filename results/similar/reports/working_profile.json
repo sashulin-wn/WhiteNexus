@@ -1,12 +1,12 @@
 {
   "working_servers": {
-    "servers": 372,
-    "vless": 302,
-    "vless_reality": 257,
-    "vmess": 70,
-    "vless_tls": 45,
-    "working_hosts_resolved": 83,
-    "working_hosts_dns_total": 91
+    "servers": 385,
+    "vless": 314,
+    "vless_reality": 267,
+    "vless_tls": 47,
+    "vmess": 71,
+    "working_hosts_resolved": 87,
+    "working_hosts_dns_total": 97
   },
   "pbk_groups": [
     [
@@ -61,7 +61,7 @@
   "domain_families": [
     [
       "h1clayd.click",
-      31
+      34
     ],
     [
       "betust.net",
@@ -100,16 +100,16 @@
       11
     ],
     [
+      "h1cloud.net",
+      10
+    ],
+    [
       "fastly.com",
       10
     ],
     [
-      "h1cloud.net",
-      9
-    ],
-    [
       "workers.dev",
-      7
+      8
     ],
     [
       "windowssearchtools.com",
@@ -185,7 +185,7 @@
   "ports": [
     [
       443,
-      222
+      232
     ],
     [
       8443,
@@ -208,6 +208,10 @@
       4
     ],
     [
+      25035,
+      2
+    ],
+    [
       9096,
       2
     ],
@@ -218,28 +222,24 @@
     [
       23444,
       2
-    ],
-    [
-      8444,
-      2
     ]
   ],
   "transports": [
     [
       "tcp",
-      192
+      200
     ],
     [
       "xhttp",
-      64
+      66
     ],
     [
       "grpc",
-      25
+      26
     ],
     [
       "ws",
-      21
+      22
     ]
   ]
 }

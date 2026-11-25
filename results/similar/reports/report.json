@@ -1,14 +1,14 @@
 {
-  "pool_lines": 84767,
-  "working_lines": 438,
+  "pool_lines": 86473,
+  "working_lines": 452,
   "working_profile_counts": {
-    "servers": 372,
-    "vless": 302,
-    "vless_reality": 257,
-    "vmess": 70,
-    "vless_tls": 45,
-    "working_hosts_resolved": 83,
-    "working_hosts_dns_total": 91
+    "servers": 385,
+    "vless": 314,
+    "vless_reality": 267,
+    "vless_tls": 47,
+    "vmess": 71,
+    "working_hosts_resolved": 87,
+    "working_hosts_dns_total": 97
   },
   "profile_pbk": [
     [
@@ -63,7 +63,7 @@
   "profile_families": [
     [
       "h1clayd.click",
-      31
+      34
     ],
     [
       "betust.net",
@@ -102,16 +102,16 @@
       11
     ],
     [
+      "h1cloud.net",
+      10
+    ],
+    [
       "fastly.com",
       10
     ],
     [
-      "h1cloud.net",
-      9
-    ],
-    [
       "workers.dev",
-      7
+      8
     ],
     [
       "windowssearchtools.com",
@@ -187,7 +187,7 @@
   "profile_ports": [
     [
       443,
-      222
+      232
     ],
     [
       8443,
@@ -210,6 +210,10 @@
       4
     ],
     [
+      25035,
+      2
+    ],
+    [
       9096,
       2
     ],
@@ -220,92 +224,92 @@
     [
       23444,
       2
-    ],
-    [
-      8444,
-      2
     ]
   ],
   "profile_transports": [
     [
       "tcp",
-      192
+      200
     ],
     [
       "xhttp",
-      64
+      66
     ],
     [
       "grpc",
-      25
+      26
     ],
     [
       "ws",
-      21
+      22
     ]
   ],
-  "working_valid": 372,
-  "pool_unsupported": 15843,
-  "pool_exactly_in_working": 171,
-  "pool_unique_candidates": 48239,
-  "matched_before_dns": 4623,
-  "dns_hosts_queued": 358,
-  "dns_failed_or_over_limit": 69,
-  "dns_ok": 4554,
-  "similar_after_dns": 4554,
-  "tcp_batch": 4554,
+  "working_valid": 385,
+  "pool_unsupported": 16130,
+  "pool_exactly_in_working": 202,
+  "pool_unique_candidates": 47377,
+  "matched_before_dns": 5030,
+  "dns_hosts_queued": 398,
+  "dns_failed_or_over_limit": 92,
+  "dns_ok": 4938,
+  "similar_after_dns": 4938,
+  "tcp_batch": 4938,
   "skipped_after_tcp_limit": 0,
-  "tcp_recovered_on_retry": 18,
-  "tcp_ok": 3316,
-  "tcp_failed": 1238,
+  "tcp_recovered_on_retry": 7,
+  "tcp_ok": 3610,
+  "tcp_failed": 1328,
   "xray_available": true,
   "singbox_available": true,
-  "xray_skipped_unsupported_transport": 32,
-  "xray_ok": 381,
-  "singbox_skipped_unsupported_transport": 633,
-  "singbox_ok": 212,
+  "xray_skipped_unsupported_transport": 33,
+  "xray_ok": 438,
+  "singbox_skipped_unsupported_transport": 642,
+  "singbox_ok": 250,
   "speed_probe_limit_per_core": 300,
-  "dropped_per_ip": 1236,
-  "dropped_per_family": 967,
-  "dropped_per_pbk": 173,
-  "north_america_dropped_by_25pct_cap": 250,
-  "verified": 54,
-  "xray_verified": 45,
-  "singbox_verified": 17,
-  "verified_by_both": 8,
+  "dropped_per_ip": 1310,
+  "dropped_per_family": 1080,
+  "dropped_per_pbk": 156,
+  "north_america_dropped_by_25pct_cap": 255,
+  "verified": 66,
+  "xray_verified": 57,
+  "singbox_verified": 21,
+  "verified_by_both": 12,
   "final_country_distribution": {
     "AE": 2,
     "AM": 1,
     "AT": 6,
-    "BG": 1,
     "BR": 1,
     "BY": 2,
-    "CH": 6,
-    "CZ": 6,
-    "DE": 98,
-    "EE": 16,
-    "ES": 4,
-    "FI": 14,
-    "FR": 10,
-    "GB": 11,
-    "HK": 9,
+    "BZ": 1,
+    "CH": 5,
+    "CZ": 4,
+    "DE": 91,
+    "EE": 19,
+    "ES": 2,
+    "FI": 20,
+    "FR": 9,
+    "GB": 10,
+    "HK": 11,
     "HU": 1,
     "ID": 2,
+    "IE": 1,
+    "IL": 2,
+    "IR": 1,
     "IT": 3,
     "JP": 7,
-    "KZ": 2,
+    "KZ": 3,
     "LT": 3,
-    "LV": 11,
-    "NL": 67,
-    "PL": 31,
+    "LU": 1,
+    "LV": 12,
+    "NL": 75,
+    "PL": 30,
     "RO": 2,
     "RS": 15,
-    "RU": 85,
+    "RU": 74,
     "SC": 2,
-    "SE": 16,
-    "SG": 3,
+    "SE": 21,
+    "SG": 2,
     "SI": 7,
-    "TR": 6
+    "TR": 2
   },
   "final_us_ca_share": 0.0,
   "final_us_ca_plus_unknown_share": 0.0,
